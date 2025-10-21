@@ -8424,7 +8424,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mylib:CHIPLED_0603_NOOUTLINE"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 232.41 33.02 0)
 			(effects
 				(font
@@ -9099,7 +9099,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mylib:CHIPLED_0603_NOOUTLINE"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 254 87.63 0)
 			(effects
 				(font
@@ -9487,7 +9487,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mylib:CHIPLED_0603_NOOUTLINE"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 266.7 87.63 0)
 			(effects
 				(font

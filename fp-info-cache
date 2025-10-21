@@ -1,4 +1,4 @@
-26767729157050787
+26771192342057492
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106456,6 +106456,13 @@ txb0106rgyr
 21
 17
 mylib
+CHIPLED_0603_NOOUTLINE
+
+
+0
+2
+2
+mylib
 CON_353630460
 
 
@@ -106483,6 +106490,13 @@ PQFN50P300X250X97-14N
 0
 14
 14
+mylib
+R_0603_1608Metric
+Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
 nxp
 sot96-1_soic-8
 NXP SOT96-1 specification (based on SO-8, SOIC-8)

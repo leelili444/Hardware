@@ -249,12 +249,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "power_pin_not_driven|1028700|469900|7d1781d3-834d-40d1-bcf5-e024987aecdb|00000000-0000-0000-0000-000000000000|/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b|/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b|",
-        "not impact the function, while try to solve it later"
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -1180,12 +1175,20 @@
       "Root"
     ],
     [
-      "3e6b1080-2480-49a7-8bae-2dbfae5f98f5",
-      "Connectors"
+      "623e427f-6907-46a8-ba12-bccc1b1d2c2b",
+      "PowerAndUSB"
     ],
     [
-      "623e427f-6907-46a8-ba12-bccc1b1d2c2b",
-      "PowerSupply"
+      "39c93069-edc2-4035-8fc7-27a45736847d",
+      "MCU"
+    ],
+    [
+      "57f4b5bf-da86-4b65-9b05-7c9ef99c472c",
+      "sensor"
+    ],
+    [
+      "3e6b1080-2480-49a7-8bae-2dbfae5f98f5",
+      "Connectors"
     ]
   ],
   "text_variables": {}

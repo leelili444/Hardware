@@ -945,7 +945,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "57f4b5bf-da86-4b65-9b05-7c9ef99c472c")
-		(property "Sheetname" "sensor"
+		(property "Sheetname" "Peripherals"
 			(at 93.98 121.8434 0)
 			(effects
 				(font
@@ -956,7 +956,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "sensor.kicad_sch"
+		(property "Sheetfile" "Periph.kicad_sch"
 			(at 93.98 149.1746 0)
 			(effects
 				(font

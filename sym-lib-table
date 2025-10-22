@@ -10,4 +10,5 @@
   (lib (name "usb_c_receptacle_usb2.0")(type "KiCad")(uri "${KIPRJMOD}/component_library/mylib.pretty/usb_c_receptacle_usb2.0.kicad_sym")(options "")(descr ""))
   (lib (name "usblc6-2sc6")(type "KiCad")(uri "${KIPRJMOD}/component_library/mylib.pretty/usblc6-2sc6.kicad_sym")(options "")(descr ""))
   (lib (name "ch340e")(type "KiCad")(uri "${KIPRJMOD}/component_library/mylib.pretty/ch340e.kicad_sym")(options "")(descr ""))
+  (lib (name "w25q128jvss")(type "KiCad")(uri "${KIPRJMOD}/component_library/mylib.pretty/w25q128jvss.kicad_sym")(options "")(descr ""))
 )

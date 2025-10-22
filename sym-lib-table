@@ -6,4 +6,8 @@
   (lib (name "ICM-42688-P")(type "KiCad")(uri "${KIPRJMOD}/component_library/ICM-42688-P.kicad_sym")(options "")(descr ""))
   (lib (name "common")(type "KiCad")(uri "${KIPRJMOD}/component_library/common.kicad_sym")(options "")(descr ""))
   (lib (name "nxp")(type "KiCad")(uri "${KIPRJMOD}/component_library/nxp.kicad_sym")(options "")(descr ""))
+  (lib (name "tps2115adrbr")(type "KiCad")(uri "${KIPRJMOD}/component_library/mylib.pretty/tps2115adrbr.kicad_sym")(options "")(descr ""))
+  (lib (name "usb_c_receptacle_usb2.0")(type "KiCad")(uri "${KIPRJMOD}/component_library/mylib.pretty/usb_c_receptacle_usb2.0.kicad_sym")(options "")(descr ""))
+  (lib (name "usblc6-2sc6")(type "KiCad")(uri "${KIPRJMOD}/component_library/mylib.pretty/usblc6-2sc6.kicad_sym")(options "")(descr ""))
+  (lib (name "ch340e")(type "KiCad")(uri "${KIPRJMOD}/component_library/mylib.pretty/ch340e.kicad_sym")(options "")(descr ""))
 )

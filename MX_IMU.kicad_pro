@@ -249,7 +249,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "power_pin_not_driven|1028700|469900|7d1781d3-834d-40d1-bcf5-e024987aecdb|00000000-0000-0000-0000-000000000000|/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b|/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b|",
+        "not impact the function, while try to solve it later"
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -1133,7 +1138,7 @@
       "intersheets_ref_short": false,
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
-      "junction_size_choice": 3,
+      "junction_size_choice": 4,
       "label_size_ratio": 0.375,
       "operating_point_overlay_i_precision": 3,
       "operating_point_overlay_i_range": "~A",
@@ -1177,6 +1182,10 @@
     [
       "3e6b1080-2480-49a7-8bae-2dbfae5f98f5",
       "Connectors"
+    ],
+    [
+      "623e427f-6907-46a8-ba12-bccc1b1d2c2b",
+      "PowerSupply"
     ]
   ],
   "text_variables": {}

@@ -1,4 +1,4 @@
-26771192342057492
+26778237050683474
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106463,6 +106463,27 @@ CHIPLED_0603_NOOUTLINE
 2
 2
 mylib
+COM-16347_SPK
+
+COM-16347 
+0
+4
+4
+mylib
+COM-16347_SPK-M
+
+COM-16347 
+0
+4
+4
+mylib
+CONN_S2B-ZR_JST
+
+S2B-ZRLFSN 
+0
+2
+2
+mylib
 CON_353630460
 
 
@@ -106497,6 +106518,13 @@ resistor
 0
 2
 2
+mylib
+SON65P300X300X100-9N
+
+
+0
+9
+9
 nxp
 sot96-1_soic-8
 NXP SOT96-1 specification (based on SO-8, SOIC-8)

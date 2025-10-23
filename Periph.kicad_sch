@@ -630,27 +630,54 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Memory_Flash:W25Q32JVSS"
+		(symbol "Memory_Flash:W25Q128JVS"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -8.89 8.89 0)
+				(at -6.35 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "W25Q32JVSS"
-				(at 7.62 8.89 0)
+			(property "Value" "W25Q128JVS"
+				(at 7.62 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm"
+			(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+				(at 0 22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
+				(at 0 25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8"
+				(at 0 27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flash memory SPI QPI DTR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -659,7 +686,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf"
+			(property "ki_fp_filters" "*SOIC*5.3x5.3mm*P1.27mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -668,37 +695,10 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "32Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "flash memory SPI"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOIC*5.23x5.23mm*P1.27mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "W25Q32JVSS_0_1"
+			(symbol "W25Q128JVS_0_1"
 				(rectangle
-					(start -10.16 7.62)
-					(end 10.16 -7.62)
+					(start -7.62 10.16)
+					(end 10.16 -10.16)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -708,9 +708,9 @@
 					)
 				)
 			)
-			(symbol "W25Q32JVSS_1_1"
+			(symbol "W25Q128JVS_1_1"
 				(pin input line
-					(at -12.7 2.54 0)
+					(at -10.16 7.62 0)
 					(length 2.54)
 					(name "~{CS}"
 						(effects
@@ -728,7 +728,7 @@
 					)
 				)
 				(pin input line
-					(at -12.7 -2.54 0)
+					(at -10.16 5.08 0)
 					(length 2.54)
 					(name "CLK"
 						(effects
@@ -745,8 +745,80 @@
 						)
 					)
 				)
+				(pin bidirectional line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "DI/IO_{0}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "DO/IO_{1}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "~{WP}/IO_{2}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "~{HOLD}/~{RESET}/IO_{3}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_in line
-					(at 0 10.16 270)
+					(at 0 12.7 270)
 					(length 2.54)
 					(name "VCC"
 						(effects
@@ -764,7 +836,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -10.16 90)
+					(at 0 -12.7 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -774,78 +846,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 5.08 180)
-					(length 2.54)
-					(name "DI(IO0)"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 2.54 180)
-					(length 2.54)
-					(name "DO(IO1)"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -2.54 180)
-					(length 2.54)
-					(name "IO2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -5.08 180)
-					(length 2.54)
-					(name "IO3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1140,10 +1140,10 @@
 		(uuid "5dc914e9-56f3-4b8e-abd3-5ee84a969087")
 	)
 	(junction
-		(at 93.98 151.13)
+		(at 63.5 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a58cec5f-619d-4565-bc92-c444b270d2fe")
+		(uuid "76c17578-213f-45e8-9cc6-5faddf8db148")
 	)
 	(junction
 		(at 113.03 93.98)
@@ -1203,6 +1203,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 149.86) (xy 59.69 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "272194d2-b99e-446d-aba5-e933bee859e8")
+	)
+	(wire
+		(pts
 			(xy 153.67 63.5) (xy 153.67 64.77)
 		)
 		(stroke
@@ -1210,6 +1220,16 @@
 			(type default)
 		)
 		(uuid "291dd66c-da14-4232-89b1-69411818834a")
+	)
+	(wire
+		(pts
+			(xy 63.5 152.4) (xy 63.5 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a6b2282-a579-4d7a-a991-66e84bae905e")
 	)
 	(wire
 		(pts
@@ -1431,16 +1451,6 @@
 		)
 		(uuid "bf63f9d6-de35-460e-a1cb-bbc942efba30")
 	)
-	(wire
-		(pts
-			(xy 93.98 151.13) (xy 97.79 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6202e24-d4df-481f-b21f-326a2f0f3fce")
-	)
 	(polyline
 		(pts
 			(xy 43.942 52.705) (xy 43.942 101.219)
@@ -1460,26 +1470,6 @@
 			(type default)
 		)
 		(uuid "c8d24ccb-48ee-4230-9c2b-b1917404b8de")
-	)
-	(wire
-		(pts
-			(xy 76.2 156.21) (xy 76.2 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ceb50eac-3bd9-4cb1-9a82-a5a8b5cc46b9")
-	)
-	(wire
-		(pts
-			(xy 93.98 148.59) (xy 93.98 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e203ecec-6bf4-4061-be11-2d5103f8ebaf")
 	)
 	(polyline
 		(pts
@@ -1513,16 +1503,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 133.35) (xy 76.2 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcc4016c-a910-47e9-afd9-3cbf70682b40")
-	)
-	(wire
-		(pts
 			(xy 110.49 66.04) (xy 114.3 66.04)
 		)
 		(stroke
@@ -1531,9 +1511,9 @@
 		)
 		(uuid "ff0a546f-3b70-4c5d-909e-7b7a8e33a177")
 	)
-	(global_label "Flash_CLK"
+	(global_label "Flash_MISO"
 		(shape input)
-		(at 63.5 148.59 180)
+		(at 68.58 147.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1541,9 +1521,53 @@
 			)
 			(justify right)
 		)
-		(uuid "0c3c793f-2b64-4d7d-9dec-5fc9bf28bcb6")
+		(uuid "133bc192-4d22-47e5-b6e4-7e431ed2753a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 51.4712 148.5106 0)
+			(at 54.9511 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Flash_CS"
+		(shape input)
+		(at 68.58 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "24d85399-62d1-4aca-9887-ba78a93e2b23")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.6398 139.6206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Flash_CLK"
+		(shape input)
+		(at 68.58 142.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "55fe8e70-bbff-45ce-a9a6-e25c93543566")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 56.5512 142.1606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1571,28 +1595,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Flash_MISO"
-		(shape input)
-		(at 88.9 143.51 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5f497fc3-0a52-4a0a-8b0c-62576aa30ca8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.5289 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -1685,9 +1687,9 @@
 			)
 		)
 	)
-	(global_label "Flash_CS"
+	(global_label "Flash_MOSI"
 		(shape input)
-		(at 63.5 143.51 180)
+		(at 68.58 144.78 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1695,9 +1697,9 @@
 			)
 			(justify right)
 		)
-		(uuid "b20321d3-f7fe-4350-9c0b-7ca4519827f7")
+		(uuid "db4ea84a-b919-4d1c-a96a-2612dbf08979")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.5598 143.4306 0)
+			(at 54.9511 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1729,25 +1731,145 @@
 			)
 		)
 	)
-	(global_label "Flash_MOSI"
-		(shape input)
-		(at 88.9 140.97 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f5b4afd3-e298-492e-ab92-5c3c7d9dc0eb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.5289 140.97 0)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 66.04 149.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1423d0b3-1c3b-4ca8-8d54-3752b3415fc1")
+		(property "Reference" "R25"
+			(at 67.31 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 64.77 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 66.04 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C25744"
+			(at 66.04 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e496baf9-c1f4-477c-ac6f-02d790cb6ae5")
+		)
+		(pin "2"
+			(uuid "654dadb8-5633-4280-9437-1fc9c358c93b")
+		)
+		(instances
+			(project "MX_IMU"
+				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/57f4b5bf-da86-4b65-9b05-7c9ef99c472c"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 59.69 149.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c70480b-3d36-4bcf-9040-589028f24326")
+		(property "Reference" "#PWR078"
+			(at 63.5 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 53.594 152.146 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 59.69 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84d133b5-4b57-46a1-a9b3-b72689396ebb")
+		)
+		(instances
+			(project "MX_IMU"
+				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/57f4b5bf-da86-4b65-9b05-7c9ef99c472c"
+					(reference "#PWR078")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -1943,170 +2065,6 @@
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/57f4b5bf-da86-4b65-9b05-7c9ef99c472c"
 					(reference "#PWR062")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Memory_Flash:W25Q32JVSS")
-		(at 76.2 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2d868923-8759-476d-9b37-f81fed542f64")
-		(property "Reference" "U10"
-			(at 78.3433 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "W25Q128JVSS"
-			(at 78.3433 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm"
-			(at 76.2 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf"
-			(at 76.2 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 76.2 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "106f4a30-c840-4f74-af5d-66bde30763f9")
-		)
-		(pin "2"
-			(uuid "68030009-57d6-453a-8087-516278048cb4")
-		)
-		(pin "3"
-			(uuid "a1d22460-d5a0-4557-bf20-b4ace5b5ea89")
-		)
-		(pin "4"
-			(uuid "ce3915af-f4f3-4dd7-8cbc-6c4967c90e9b")
-		)
-		(pin "5"
-			(uuid "0b07e95f-db9f-4aa4-9500-438ed550b4d4")
-		)
-		(pin "6"
-			(uuid "1a58cb14-8b73-4de4-aeb7-7198d1fa8491")
-		)
-		(pin "7"
-			(uuid "bfc512bf-8a62-4396-b46b-00c6a487f687")
-		)
-		(pin "8"
-			(uuid "9cd84b89-12aa-44b5-b38b-518a6c611025")
-		)
-		(instances
-			(project "MX_IMU"
-				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/57f4b5bf-da86-4b65-9b05-7c9ef99c472c"
-					(reference "U10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 91.44 148.59 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2ea532dc-61ca-4f66-8891-372b86464b3b")
-		(property "Reference" "R20"
-			(at 90.17 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0R"
-			(at 92.71 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 91.44 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 91.44 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C25744"
-			(at 91.44 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fe1571ab-e2da-4d5f-acb6-920d4570efe4")
-		)
-		(pin "2"
-			(uuid "f5656658-5278-4ade-bcde-8c57771518fd")
-		)
-		(instances
-			(project "MX_IMU"
-				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/57f4b5bf-da86-4b65-9b05-7c9ef99c472c"
-					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -2322,71 +2280,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 97.79 151.13 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "79993555-c44b-4476-a8b0-bcb986b2472b")
-		(property "Reference" "#PWR077"
-			(at 93.98 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 102.87 153.162 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 97.79 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "232d221e-2379-4e17-a99b-ff35f36efdbc")
-		)
-		(instances
-			(project ""
-				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/57f4b5bf-da86-4b65-9b05-7c9ef99c472c"
-					(reference "#PWR077")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 143.51 67.31 0)
 		(unit 1)
@@ -2533,72 +2426,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 76.2 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9440dd2c-ce27-4ca3-bc2c-55b658479955")
-		(property "Reference" "#PWR074"
-			(at 76.2 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 76.2 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 76.2 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "425052f4-9776-40b2-bfee-cafdbf7a2ceb")
-		)
-		(instances
-			(project ""
-				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/57f4b5bf-da86-4b65-9b05-7c9ef99c472c"
-					(reference "#PWR074")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 162.56 73.66 0)
 		(unit 1)
@@ -2665,34 +2492,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 91.44 151.13 270)
+		(lib_id "power:GND")
+		(at 78.74 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b135fc07-6264-403a-be35-b525ca54936f")
-		(property "Reference" "R21"
-			(at 92.71 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0R"
-			(at 90.17 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 91.44 151.13 0)
+		(fields_autoplaced yes)
+		(uuid "ae6ca68f-c504-4739-8698-94fe2770293e")
+		(property "Reference" "#PWR079"
+			(at 78.74 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2700,8 +2510,25 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 91.44 151.13 0)
+		(property "Value" "GND"
+			(at 78.74 164.4634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2710,32 +2537,20 @@
 			)
 		)
 		(property "Description" ""
-			(at 91.44 151.13 0)
+			(at 78.74 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "LCSC Part #" "C25744"
-			(at 91.44 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "be6ce344-4234-4e98-8996-73e5cb68d7b7")
-		)
-		(pin "2"
-			(uuid "ce80ab88-6c44-47b9-b884-572b61c5902c")
+			(uuid "c12684ac-cea3-4ceb-89a1-820a999c9ad9")
 		)
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/57f4b5bf-da86-4b65-9b05-7c9ef99c472c"
-					(reference "R21")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -2802,6 +2617,83 @@
 			(project ""
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/57f4b5bf-da86-4b65-9b05-7c9ef99c472c"
 					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 66.04 152.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb8a5fbe-04b7-4138-814e-7b47f8f6e783")
+		(property "Reference" "R24"
+			(at 67.31 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 64.77 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 66.04 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C25744"
+			(at 66.04 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1b5295e-6139-4573-a98b-db00ac2c413e")
+		)
+		(pin "2"
+			(uuid "5edcb72c-3ed9-48e2-a01d-d464677a6e6c")
+		)
+		(instances
+			(project "MX_IMU"
+				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/57f4b5bf-da86-4b65-9b05-7c9ef99c472c"
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -3017,17 +2909,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 76.2 158.75 0)
+		(lib_id "Memory_Flash:W25Q128JVS")
+		(at 78.74 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f6f57826-15b4-43a8-83c8-e2c4fdf48eca")
-		(property "Reference" "#PWR0103"
-			(at 76.2 165.1 0)
+		(uuid "e35a98ed-1331-483f-bb4e-5ace1f8397e0")
+		(property "Reference" "U11"
+			(at 90.17 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "W25Q128JVS"
+			(at 90.17 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+			(at 78.74 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3035,16 +2945,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 76.2 163.1934 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 158.75 0)
+		(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
+			(at 78.74 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3052,8 +2954,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 76.2 158.75 0)
+		(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8"
+			(at 78.74 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3061,21 +2963,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 76.2 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(pin "6"
+			(uuid "5010895c-cf3f-41a0-93e6-46a75770442a")
+		)
+		(pin "3"
+			(uuid "fc7a3310-cda7-44fb-b587-d718b576e8e3")
 		)
 		(pin "1"
-			(uuid "1c63899e-9edb-43fc-ada8-1fc942116436")
+			(uuid "712441b6-5620-485a-bc98-802e11c219de")
+		)
+		(pin "7"
+			(uuid "233f6c16-cac1-49cc-a3f7-35ff5e5e9b60")
+		)
+		(pin "5"
+			(uuid "e3141aec-6e84-4b7f-a674-4a433fd4dacf")
+		)
+		(pin "2"
+			(uuid "d10d6e1d-24c5-4224-8ac2-6f0450f30a26")
+		)
+		(pin "8"
+			(uuid "dc725ca3-9ed4-428e-9d7a-a0b7dd17425e")
+		)
+		(pin "4"
+			(uuid "5d602b31-329c-4fad-b81b-05c5468e5a4c")
 		)
 		(instances
-			(project "MX_IMU"
+			(project ""
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/57f4b5bf-da86-4b65-9b05-7c9ef99c472c"
-					(reference "#PWR0103")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -3145,6 +3060,72 @@
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/57f4b5bf-da86-4b65-9b05-7c9ef99c472c"
 					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 78.74 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbaec18e-5f23-4ac1-97c2-2c16390e9405")
+		(property "Reference" "#PWR073"
+			(at 78.74 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 78.74 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 78.74 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a2b6676-1695-4ee6-8bca-0c45dce2c4d8")
+		)
+		(instances
+			(project "MX_IMU"
+				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/57f4b5bf-da86-4b65-9b05-7c9ef99c472c"
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)

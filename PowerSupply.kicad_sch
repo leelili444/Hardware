@@ -7550,7 +7550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CONN_S2B-ZR_JST"
+		(property "Footprint" "mylib:CONN_S2B-ZR_JST"
 			(at 36.83 39.37 0)
 			(effects
 				(font
@@ -7894,7 +7894,7 @@
 				)
 			)
 		)
-		(property "Footprint" "53-01:TPS2115ADRBR"
+		(property "Footprint" "mylib:SON65P300X300X100-9N"
 			(at 107.95 84.074 0)
 			(effects
 				(font

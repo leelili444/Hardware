@@ -2790,7 +2790,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ICM-42688-P:PQFN50P300X250X97-14N"
+		(property "Footprint" "mylib:ICM42688p"
 			(at 85.09 78.74 0)
 			(effects
 				(font

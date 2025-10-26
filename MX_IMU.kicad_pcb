@@ -269,7 +269,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100n"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "6fc747fb-d601-4648-b5a6-a5daafe1eeb3")
@@ -481,7 +481,7 @@
 				)
 			)
 		)
-		(property "Value" "FerriteBead_Small"
+		(property "Value" "600 @ 600 MHz"
 			(at 0 1.55 0)
 			(layer "F.Fab")
 			(uuid "448d8317-0701-4075-a910-94495c5d50ba")
@@ -894,7 +894,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "5d837818-445c-4457-9564-52ab0eef8eef")
@@ -1835,7 +1835,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "12p"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "54fcf399-86a1-4037-b1c0-3879404c8877")
@@ -2047,7 +2047,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "1u"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "8b06c8fd-c731-47aa-8a54-8bd1b28c7f16")
@@ -2259,7 +2259,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "5.1k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "b2e6dc4a-0a85-4f65-a719-57b0baaf54c4")
@@ -2458,7 +2458,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "2u2"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "19b9cbd4-b068-47bc-a83c-646cf57db29a")
@@ -2670,7 +2670,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100nf"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "ebf913d6-31d5-4c6a-ac71-12b7852ad283")
@@ -2869,7 +2869,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "22"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "d33ac301-653a-4878-9c2a-97c3027fcd97")
@@ -3081,7 +3081,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100nf"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "21c229d7-7827-4ce7-b1fe-0bdc87ef31de")
@@ -3699,7 +3699,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100n"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "c3debefc-0041-427c-9b62-93c5b4f567da")
@@ -3911,7 +3911,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "330"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "37d0e5fb-4be8-43ef-8eba-5309ac01dc86")
@@ -4122,7 +4122,7 @@
 				)
 			)
 		)
-		(property "Value" "Crystal_GND24_Small"
+		(property "Value" "16MHz"
 			(at 0 2.45 0)
 			(layer "F.Fab")
 			(uuid "02718d25-a046-446b-ac35-c2626d862fe2")
@@ -4293,7 +4293,7 @@
 			(effects
 				(font
 					(size 0.48 0.48)
-					(thickness 0.15)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -4304,7 +4304,7 @@
 			(effects
 				(font
 					(size 0.48 0.48)
-					(thickness 0.15)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -5119,6 +5119,17 @@
 			(uuid "ff72d21c-05d1-4aff-a467-56c57c8d8859")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/library/3DModels/ICM-42688-P.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1.1 1)
+			)
+			(rotate
+				(xyz 90 -180 -180)
+			)
+		)
 	)
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
@@ -5240,7 +5251,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100nf"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "4a9cb51e-400f-4e0a-95db-a7b96bcc6371")
@@ -6396,7 +6407,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100n"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "4798857f-fa2c-4263-b433-1fb645797d1b")
@@ -6608,7 +6619,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "10uf"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "3270b08b-c49a-4131-85a8-5444347e57f5")
@@ -6807,7 +6818,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "10n"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "2f29b933-d8d4-4e6f-bd2f-a116614f4499")
@@ -7391,7 +7402,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "60R"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "0a9aabcc-ab93-44bc-9eea-d360ab23e42f")
@@ -7590,7 +7601,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "22"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "18cbe9ac-5f95-4ece-afc9-56127e24bb82")
@@ -7905,7 +7916,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1u"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "f9360d3d-e4f4-4fb5-8165-83f2667f8afc")
@@ -8393,7 +8404,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "47"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "f33b4e79-3c39-4cf2-a5a2-a40d4921d027")
@@ -9321,7 +9332,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "22"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "6a298dfb-c99c-4b99-bdfd-8ec4881821a7")
@@ -9533,7 +9544,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "2u2"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "451ba2bb-5b81-4f38-bb4c-0e950871928f")
@@ -9745,7 +9756,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "10n"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "a5cc3a4f-a780-4b29-b91d-c3eeefea72f9")
@@ -9957,7 +9968,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "5.1k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "30f7bcb5-0d08-4b64-95fb-e68a932ba574")
@@ -10156,7 +10167,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "509deb51-061f-4fcf-8bbc-977b2f7950ed")
@@ -10368,7 +10379,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100nf"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "f155c410-dea2-4621-8eac-108e08600678")
@@ -10567,7 +10578,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100nf"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "ac40efbd-3eaf-4a29-9027-c263ccf55f9e")
@@ -11102,7 +11113,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "0.1u"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "e2235537-89b6-4793-b4a7-3ba2aecba845")
@@ -11301,7 +11312,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "12p"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "34bd76f4-e8f0-4b6d-8640-3be490eb024d")
@@ -11513,7 +11524,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "a08baf04-f035-4e5b-b0d7-d9694a2f99c4")
@@ -11725,7 +11736,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "330R"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "d209bc3e-8be9-4f3a-8f6c-4dfdb8d9864b")
@@ -12293,7 +12304,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100n"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "5623a593-b062-4782-983d-8c2b876b834f")
@@ -13097,7 +13108,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "22"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "56111896-1439-4c30-8e5b-d0b67580330b")
@@ -13745,7 +13756,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "22"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "a246256a-0da3-430b-854f-51fae680a628")
@@ -14619,7 +14630,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "70afe8a0-97d8-4750-969a-164b0e06ed85")
@@ -14831,7 +14842,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "60R"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "0bb962c0-9aa3-4971-af02-7bde78b74e26")
@@ -15030,7 +15041,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100nf"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "b8321b44-0653-408b-a702-5302a78edf0a")
@@ -15332,7 +15343,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "2u2"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "81acce50-9a0f-40a4-b8e4-b37d7f19552d")
@@ -15778,7 +15789,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "7e872baf-7b73-4c18-9cb5-8617ee9ef26c")
@@ -15977,7 +15988,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "4u7"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "3e979884-d2ca-45fa-a524-53bda9bb7145")
@@ -16189,7 +16200,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "5.1k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "db79955a-93fd-49c7-af14-2dc3b280d961")
@@ -16589,7 +16600,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100nf"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "2a406d7d-310d-4784-aa5d-a110516213ae")
@@ -17303,7 +17314,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "10uf"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "980cdd68-ccb0-4f21-9699-601b591220eb")
@@ -17755,7 +17766,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "4n7"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "9036c6cb-a9d3-49d9-9936-72bf8abb3dfd")
@@ -17954,7 +17965,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100n"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "9469c174-791b-4376-ab3f-3cca2cf35d46")
@@ -18166,7 +18177,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "2u2"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "b6d0e022-e369-4f0c-b14d-d5563ebf7c48")
@@ -18378,7 +18389,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "390R"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "b4569a08-bc52-4ca9-a5bc-d610bf2da4cd")
@@ -18577,7 +18588,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100n"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "832c119f-7740-4f6b-bf9d-808c254de8b8")
@@ -19827,7 +19838,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "330"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "e312152d-e33c-4923-bb16-c7860e339402")
@@ -20039,7 +20050,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100n"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "e07eab07-d226-49ed-8266-6dfbbfc3d6b3")
@@ -20251,7 +20262,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "10uf/30v"
 			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "8a88da5b-db74-4edc-ba73-bd7013756d54")
@@ -20450,7 +20461,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "5.1k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "06b2327d-8c2d-48fa-aba8-07863563f7c7")

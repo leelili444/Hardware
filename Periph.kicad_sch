@@ -1223,7 +1223,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 152.4) (xy 63.5 149.86)
+			(xy 63.5 157.48) (xy 63.5 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1280,6 +1280,16 @@
 			(type default)
 		)
 		(uuid "39173163-4074-40bc-8c75-76b02600fd44")
+	)
+	(wire
+		(pts
+			(xy 68.58 157.48) (xy 68.58 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43460f0b-feb0-452a-a26c-187d92f42c0e")
 	)
 	(wire
 		(pts
@@ -1741,7 +1751,7 @@
 		(dnp no)
 		(uuid "1423d0b3-1c3b-4ca8-8d54-3752b3415fc1")
 		(property "Reference" "R12"
-			(at 67.31 151.13 0)
+			(at 65.278 150.114 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1749,8 +1759,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
-			(at 64.77 151.13 0)
+		(property "Value" "10k"
+			(at 64.516 152.146 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2088,7 +2098,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100nf"
 			(at 110.2868 147.193 0)
 			(effects
 				(font
@@ -2220,7 +2230,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "2u2"
 			(at 156.21 68.58 0)
 			(effects
 				(font
@@ -2298,7 +2308,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "0.1u"
 			(at 146.05 68.5862 0)
 			(effects
 				(font
@@ -2366,7 +2376,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10k"
 			(at 135.89 144.78 0)
 			(effects
 				(font
@@ -2624,7 +2634,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 66.04 152.4 270)
+		(at 66.04 157.48 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2632,7 +2642,7 @@
 		(dnp no)
 		(uuid "cb8a5fbe-04b7-4138-814e-7b47f8f6e783")
 		(property "Reference" "R13"
-			(at 67.31 153.67 0)
+			(at 64.516 157.988 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2640,8 +2650,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
-			(at 64.77 153.67 0)
+		(property "Value" "10k"
+			(at 59.436 157.734 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2650,7 +2660,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 66.04 152.4 0)
+			(at 66.04 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2659,7 +2669,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 152.4 0)
+			(at 66.04 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2668,7 +2678,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 152.4 0)
+			(at 66.04 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2676,7 +2686,7 @@
 			)
 		)
 		(property "LCSC Part #" "C25744"
-			(at 66.04 152.4 0)
+			(at 66.04 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3015,7 +3025,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "10n"
 			(at 165.1 68.5862 0)
 			(effects
 				(font

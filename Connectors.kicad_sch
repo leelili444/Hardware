@@ -1732,7 +1732,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 63.5) (xy 104.14 67.31)
+			(xy 101.6 63.5) (xy 101.6 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1832,7 +1832,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 63.5) (xy 104.14 63.5)
+			(xy 95.25 63.5) (xy 101.6 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2032,7 +2032,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 67.31) (xy 120.65 67.31)
+			(xy 101.6 67.31) (xy 120.65 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2330,10 +2330,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "22"
 			(at 118.11 62.23 90)
 			(effects
 				(font
@@ -2406,10 +2405,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "22"
 			(at 118.11 64.77 90)
 			(effects
 				(font
@@ -2484,7 +2482,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "22"
 			(at 68.58 142.24 90)
 			(effects
 				(font
@@ -2559,7 +2557,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "22"
 			(at 68.58 139.7 90)
 			(effects
 				(font
@@ -2634,8 +2632,8 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
-			(at 54.61 154.94 90)
+		(property "Value" "22"
+			(at 56.642 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2710,7 +2708,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100n"
 			(at 48.4632 148.717 0)
 			(effects
 				(font
@@ -3342,7 +3340,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "4n7"
 			(at 92.71 86.36 0)
 			(effects
 				(font
@@ -3477,7 +3475,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "60R"
 			(at 86.614 76.2 0)
 			(effects
 				(font
@@ -3745,7 +3743,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "60R"
 			(at 96.774 76.2 0)
 			(effects
 				(font
@@ -3814,7 +3812,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100n"
 			(at 82.55 45.72 0)
 			(effects
 				(font

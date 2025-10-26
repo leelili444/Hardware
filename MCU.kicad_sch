@@ -3388,16 +3388,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "need replace LED with ws2812B"
-		(exclude_from_sim no)
-		(at 246.888 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1e9131ec-3ab0-4547-b908-702729f6cbcd")
-	)
 	(text "HSE"
 		(exclude_from_sim no)
 		(at 132.08 78.74 0)
@@ -6005,7 +5995,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "2u2"
 			(at 62.23 168.91 0)
 			(effects
 				(font
@@ -6082,7 +6072,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "2u2"
 			(at 54.61 163.83 0)
 			(effects
 				(font
@@ -6289,7 +6279,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "4u7"
 			(at 53.34 50.8 0)
 			(effects
 				(font
@@ -6366,7 +6356,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100n"
 			(at 62.23 50.8 0)
 			(effects
 				(font
@@ -6443,7 +6433,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100n"
 			(at 72.39 50.8 0)
 			(effects
 				(font
@@ -6520,7 +6510,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100n"
 			(at 82.55 50.8 0)
 			(effects
 				(font
@@ -6597,7 +6587,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100n"
 			(at 92.71 50.8 0)
 			(effects
 				(font
@@ -6674,7 +6664,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100n"
 			(at 102.87 50.8 0)
 			(effects
 				(font
@@ -6879,7 +6869,7 @@
 				)
 			)
 		)
-		(property "Value" "FerriteBead_Small"
+		(property "Value" "600 @ 600 MHz"
 			(at 127 50.165 90)
 			(effects
 				(font
@@ -7019,7 +7009,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "1u"
 			(at 139.7 52.07 0)
 			(effects
 				(font
@@ -7096,7 +7086,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "10n"
 			(at 151.13 52.07 0)
 			(effects
 				(font
@@ -7238,8 +7228,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Crystal_GND24_Small"
-			(at 156.845 90.17 0)
+		(property "Value" "16MHz"
+			(at 175.514 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7321,7 +7311,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "47"
 			(at 167.64 90.17 0)
 			(effects
 				(font
@@ -7399,7 +7389,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "12p"
 			(at 168.91 102.87 0)
 			(effects
 				(font
@@ -7476,7 +7466,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "12p"
 			(at 146.05 102.87 0)
 			(effects
 				(font
@@ -7682,7 +7672,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10k"
 			(at 180.34 149.86 0)
 			(effects
 				(font
@@ -7824,7 +7814,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100nf"
 			(at 241.5032 142.367 0)
 			(effects
 				(font
@@ -8429,7 +8419,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100nf"
 			(at 249.9868 97.663 0)
 			(effects
 				(font
@@ -8630,7 +8620,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 149.86 153.67 0)
 			(effects
 				(font

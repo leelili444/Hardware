@@ -6243,7 +6243,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1u"
 			(at 105.41 60.96 0)
 			(effects
 				(font
@@ -6441,7 +6441,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "5.1k"
 			(at 203.5658 43.8979 90)
 			(effects
 				(font
@@ -6796,7 +6796,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "2u2"
 			(at 130.81 59.69 0)
 			(effects
 				(font
@@ -6872,7 +6872,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "5.1k"
 			(at 203.2 37.4705 90)
 			(effects
 				(font
@@ -7339,7 +7339,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "10uf/30v"
 			(at 46.99 59.69 0)
 			(effects
 				(font
@@ -7407,7 +7407,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "10uf"
 			(at 140.97 100.33 0)
 			(effects
 				(font
@@ -7742,7 +7742,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100nf"
 			(at 58.42 104.14 0)
 			(effects
 				(font
@@ -7810,7 +7810,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "330R"
 			(at 33.02 118.11 0)
 			(effects
 				(font
@@ -8238,7 +8238,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "330"
 			(at 71.12 149.86 0)
 			(effects
 				(font
@@ -8741,7 +8741,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "330"
 			(at 62.23 149.86 0)
 			(effects
 				(font
@@ -9082,7 +9082,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "5.1k"
 			(at 203.5658 106.1279 90)
 			(effects
 				(font
@@ -9657,7 +9657,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100nf"
 			(at 69.85 104.14 0)
 			(effects
 				(font
@@ -9725,7 +9725,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100nf"
 			(at 82.55 149.86 0)
 			(effects
 				(font
@@ -9793,7 +9793,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100nf"
 			(at 29.21 148.59 0)
 			(effects
 				(font
@@ -10245,7 +10245,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "390R"
 			(at 83.82 88.2705 90)
 			(effects
 				(font
@@ -10506,7 +10506,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "5.1k"
 			(at 203.2 99.7005 90)
 			(effects
 				(font
@@ -10811,7 +10811,7 @@
 		(fields_autoplaced yes)
 		(uuid "e5af8cc4-379c-4474-a2d2-a6ac8ee834d4")
 		(property "Reference" "C6"
-			(at 84.8741 57.5916 0)
+			(at 85.09 57.1562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10819,8 +10819,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 84.8741 60.1285 0)
+		(property "Value" "10uf"
+			(at 85.09 59.6962 0)
 			(effects
 				(font
 					(size 1.27 1.27)

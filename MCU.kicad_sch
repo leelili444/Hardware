@@ -3675,8 +3675,8 @@
 		(uuid "51bce942-d3d7-40f1-9038-855baa5c5f18")
 	)
 	(no_connect
-		(at 102.87 157.48)
-		(uuid "57a5cb26-42be-4cbd-82ae-bdd917c241ff")
+		(at 102.87 160.02)
+		(uuid "5c5e4546-87dd-49e1-b2b7-2ee6f1b83d02")
 	)
 	(no_connect
 		(at 62.23 116.84)
@@ -3693,10 +3693,6 @@
 	(no_connect
 		(at 102.87 137.16)
 		(uuid "92afe321-43c8-4045-b210-b669dec280c7")
-	)
-	(no_connect
-		(at 102.87 160.02)
-		(uuid "9375a976-0abd-47e1-aad5-0693ea35cfa7")
 	)
 	(no_connect
 		(at 102.87 93.98)
@@ -5126,6 +5122,28 @@
 			)
 		)
 	)
+	(global_label "Status_LED"
+		(shape input)
+		(at 102.87 157.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "71767a3a-bf8f-465c-a5bc-4ce434abbe7e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.2569 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SWO"
 		(shape input)
 		(at 105.41 142.24 0)
@@ -5206,6 +5224,26 @@
 			)
 		)
 	)
+	(global_label "GYRO_INT2"
+		(shape input)
+		(at 102.87 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "84999fb8-8139-4f02-a90b-0cb753cc7be8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.87 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Status_LED"
 		(shape input)
 		(at 217.17 96.52 180)
@@ -5263,28 +5301,6 @@
 		(uuid "9d64163f-4608-488e-8dcb-5e688d90edb7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 115.4708 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Status_LED"
-		(shape input)
-		(at 102.87 162.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a1a02e1e-ce93-4495-9d55-2ea3ffea4ea9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.2569 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)

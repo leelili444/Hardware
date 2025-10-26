@@ -1152,10 +1152,6 @@
 		(uuid "de3012dd-e6d7-495a-8df7-f6b08382900a")
 	)
 	(no_connect
-		(at 59.69 73.66)
-		(uuid "1ac05a70-0764-49ba-a901-e8b46f5f2b71")
-	)
-	(no_connect
 		(at 110.49 86.36)
 		(uuid "1dd7a6a6-0ab3-46cb-bcc8-5c33368d1bcb")
 	)
@@ -1303,7 +1299,7 @@
 	)
 	(polyline
 		(pts
-			(xy 44.069 52.705) (xy 189.865 52.705)
+			(xy 41.529 85.725) (xy 187.325 85.725)
 		)
 		(stroke
 			(width 0)
@@ -1693,6 +1689,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GYRO_INT2"
+		(shape input)
+		(at 59.69 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a6e390bd-a600-4627-9488-7631cdf3b65a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.69 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

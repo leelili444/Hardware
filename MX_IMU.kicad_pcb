@@ -1559,15 +1559,15 @@
 			(uuid "009fa978-ec37-4e7d-b482-8afa4a54d02f")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/component_library/model_3d/common/TO-252-2_TabPin1.wrl"
+		(model "${KIPRJMOD}/library/3DModels/LD39150DT33-R.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 1 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 90)
 			)
 		)
 	)
@@ -3676,15 +3676,15 @@
 			(uuid "20e05f0c-efed-4e3a-a8a8-24283082934b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_HRO_TYPE-C-31-M-12.step"
+		(model "${KIPRJMOD}/library/3DModels/TYPE-C-31-M-12--3DModel-STEP-56544.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 -1 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -7013,7 +7013,7 @@
 		(property "Reference" "J6"
 			(at -3.0988 -12.7 0)
 			(layer "F.SilkS")
-			(uuid "cee5ff46-1208-4664-a94c-8f802e66a750")
+			(uuid "2f8e5305-7f00-4cbb-b475-b8450bd86617")
 			(effects
 				(font
 					(size 1 1)
@@ -7024,7 +7024,7 @@
 		(property "Value" "353630460"
 			(at 3.5306 -12.7 0)
 			(layer "F.Fab")
-			(uuid "25efe90e-4408-499f-b7e5-30e6eb7ede8e")
+			(uuid "5cef2ee5-8df8-4405-8af1-59faec44e066")
 			(effects
 				(font
 					(size 1 1)
@@ -7036,7 +7036,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c51902c7-6d66-4487-b17f-550c49f7c6c1")
+			(uuid "b7011c83-3215-4d45-86a9-b26c63d6e42b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7048,7 +7048,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a062ea70-3303-4f69-a391-67046f4bc0ce")
+			(uuid "c69d3221-0503-44e9-babd-46f8b730afa5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7293,6 +7293,17 @@
 			(uuid "fe92cd91-6e53-4cda-b4af-8cafd0a47a08")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/library/3DModels/353630460.stp"
+			(offset
+				(xyz -3 4 3)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Package_SO:MSOP-10_3x3mm_P0.5mm"
 		(layer "F.Cu")
@@ -9597,15 +9608,15 @@
 			(uuid "7411f7ad-8681-4942-a88d-a84cf4a6a45b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_HRO_TYPE-C-31-M-12.step"
+		(model "${KIPRJMOD}/library/3DModels/TYPE-C-31-M-12--3DModel-STEP-56544.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 -1 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -17780,6 +17791,17 @@
 			(uuid "0ca80625-3238-4875-94e4-f2c72221401e")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/library/3DModels/353630460.stp"
+			(offset
+				(xyz -3 4 3)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")

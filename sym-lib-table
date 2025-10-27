@@ -11,4 +11,5 @@
   (lib (name "nxp")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/nxp.kicad_sym")(options "")(descr ""))
   (lib (name "usb_c_receptacle_usb2.0")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/usb_c_receptacle_usb2.0.kicad_sym")(options "")(descr ""))
   (lib (name "jst_zh")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/jst_zh.kicad_sym")(options "")(descr ""))
+  (lib (name "353630460")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/353630460.kicad_sym")(options "")(descr ""))
 )

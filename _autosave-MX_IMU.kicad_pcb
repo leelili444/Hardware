@@ -1559,15 +1559,15 @@
 			(uuid "009fa978-ec37-4e7d-b482-8afa4a54d02f")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/component_library/model_3d/common/TO-252-2_TabPin1.wrl"
+		(model "${KIPRJMOD}/library/3DModels/LD39150DT33-R.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 1 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 90)
 			)
 		)
 	)
@@ -3676,15 +3676,15 @@
 			(uuid "20e05f0c-efed-4e3a-a8a8-24283082934b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_HRO_TYPE-C-31-M-12.step"
+		(model "${KIPRJMOD}/library/3DModels/TYPE-C-31-M-12--3DModel-STEP-56544.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 -1 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -9597,15 +9597,15 @@
 			(uuid "7411f7ad-8681-4942-a88d-a84cf4a6a45b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_HRO_TYPE-C-31-M-12.step"
+		(model "${KIPRJMOD}/library/3DModels/TYPE-C-31-M-12--3DModel-STEP-56544.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 -1 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)

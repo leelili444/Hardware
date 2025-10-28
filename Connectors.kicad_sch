@@ -1914,22 +1914,16 @@
 		(uuid "3340fbf3-5958-4ce0-a05e-ac68fd8020f3")
 	)
 	(junction
+		(at 85.09 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4299a608-13fd-47bc-9fbb-be06d4504091")
+	)
+	(junction
 		(at 62.23 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7994a520-a3fd-4b04-b7e4-69741239005f")
-	)
-	(junction
-		(at 50.8 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7cd856fd-cb91-416d-90cb-880ca23bd97c")
-	)
-	(junction
-		(at 85.09 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b53f5098-af4d-43d9-a206-e33195bb504d")
 	)
 	(junction
 		(at 77.47 40.64)
@@ -1999,7 +1993,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 154.94) (xy 50.8 154.94)
+			(xy 46.99 154.94) (xy 52.07 154.94)
 		)
 		(stroke
 			(width 0)
@@ -2016,16 +2010,6 @@
 			(type default)
 		)
 		(uuid "1e489763-7818-4f47-b940-a217aa36159e")
-	)
-	(wire
-		(pts
-			(xy 50.8 154.94) (xy 52.07 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1eda3174-33ad-47f5-87ee-9ebce7d560bc")
 	)
 	(wire
 		(pts
@@ -2059,6 +2043,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 67.31) (xy 85.09 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bde1391-2a6b-4e66-9dae-9e63fd3c1a65")
+	)
+	(wire
+		(pts
 			(xy 95.25 80.01) (xy 95.25 78.74)
 		)
 		(stroke
@@ -2069,7 +2063,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 63.5) (xy 101.6 67.31)
+			(xy 101.6 63.5) (xy 101.6 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2179,6 +2173,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 67.31) (xy 85.09 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a10100f-bc2a-463d-b9df-eb48a1c6754d")
+	)
+	(wire
+		(pts
 			(xy 71.12 139.7) (xy 73.66 139.7)
 		)
 		(stroke
@@ -2186,6 +2190,16 @@
 			(type default)
 		)
 		(uuid "7a3b1770-535e-4cbc-9b7c-11443448686e")
+	)
+	(wire
+		(pts
+			(xy 120.65 69.85) (xy 101.6 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86474d93-039f-448a-968f-945277f0bbe4")
 	)
 	(polyline
 		(pts
@@ -2279,16 +2293,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 68.58) (xy 85.09 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c67cdf6c-9346-4b43-9ad9-f366934bc838")
-	)
-	(wire
-		(pts
 			(xy 49.53 76.2) (xy 62.23 76.2)
 		)
 		(stroke
@@ -2296,16 +2300,6 @@
 			(type default)
 		)
 		(uuid "c916eb2b-c83e-497f-808a-32a9f18c9da1")
-	)
-	(wire
-		(pts
-			(xy 50.8 152.4) (xy 50.8 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0870617-bfb3-4a7e-9aa8-4384cf6f27c8")
 	)
 	(wire
 		(pts
@@ -2319,7 +2313,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 69.85) (xy 85.09 71.12)
+			(xy 85.09 68.58) (xy 85.09 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2369,16 +2363,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 67.31) (xy 120.65 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb10f8d1-33c4-48f6-bb0d-28d748949767")
-	)
-	(wire
-		(pts
 			(xy 120.65 73.66) (xy 120.65 72.39)
 		)
 		(stroke
@@ -2396,16 +2380,6 @@
 			(type default)
 		)
 		(uuid "edf82de6-7401-45ab-99e7-faa79f99fe32")
-	)
-	(wire
-		(pts
-			(xy 85.09 69.85) (xy 120.65 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff4df0fc-c72d-42a0-aa96-91b6d75ebbf7")
 	)
 	(label "CAN2+"
 		(at 74.93 63.5 0)
@@ -3028,83 +3002,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 50.8 149.86 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005f9e9596")
-		(property "Reference" "C30"
-			(at 48.4632 151.0284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 48.4632 148.717 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 50.8 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 50.8 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C1525"
-			(at 50.8 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c7e8479e-2ba2-42ef-900b-cd946252d6a3")
-		)
-		(pin "2"
-			(uuid "1cf9a3cc-15e3-4e3e-8a8a-aee631fbcb1c")
-		)
-		(instances
-			(project "MX_IMU"
-				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/3e6b1080-2480-49a7-8bae-2dbfae5f98f5"
-					(reference "C30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 67.31 149.86 180)
 		(unit 1)
@@ -3228,71 +3125,6 @@
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/3e6b1080-2480-49a7-8bae-2dbfae5f98f5"
 					(reference "#PWR077")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 50.8 147.32 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005f9ed0fe")
-		(property "Reference" "#PWR076"
-			(at 50.8 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 50.673 142.9258 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5f7201fe-6f5d-4824-bd43-bc7089424a77")
-		)
-		(instances
-			(project "MX_IMU"
-				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/3e6b1080-2480-49a7-8bae-2dbfae5f98f5"
-					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -3588,8 +3420,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "439400f3-bad2-4069-9c8e-002f27adab8f")
-		(property "Reference" "J4"
-			(at 134.62 67.3099 0)
+		(property "Reference" "CAN1"
+			(at 134.62 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3670,7 +3502,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/3e6b1080-2480-49a7-8bae-2dbfae5f98f5"
-					(reference "J4")
+					(reference "CAN1")
 					(unit 1)
 				)
 			)
@@ -4224,8 +4056,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "968376b4-2d0d-49ea-8e23-2c717a777a63")
-		(property "Reference" "J6"
-			(at 123.19 35.5599 0)
+		(property "Reference" "UART1"
+			(at 123.19 36.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4306,7 +4138,7 @@
 		(instances
 			(project ""
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/3e6b1080-2480-49a7-8bae-2dbfae5f98f5"
-					(reference "J6")
+					(reference "UART1")
 					(unit 1)
 				)
 			)

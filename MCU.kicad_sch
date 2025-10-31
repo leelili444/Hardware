@@ -2606,16 +2606,16 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U11"
-				(at 22.86 -1.1998 0)
+			(property "Reference" "U"
+				(at 0.762 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "8Mhz,50ppm"
-				(at 22.86 -3.7398 0)
+			(property "Value" "12Mhz,50ppm"
+				(at 14.986 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3622,6 +3622,10 @@
 	(no_connect
 		(at 62.23 147.32)
 		(uuid "51bce942-d3d7-40f1-9038-855baa5c5f18")
+	)
+	(no_connect
+		(at 102.87 162.56)
+		(uuid "53f76485-eb9a-4ff0-85de-b796faf5c8b8")
 	)
 	(no_connect
 		(at 102.87 160.02)
@@ -7198,7 +7202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "3V3 oscillator 12Mhz 50ppm"
+		(property "Description" "3V3 oscillator 8Mhz 50ppm"
 			(at 157.48 87.63 0)
 			(effects
 				(font

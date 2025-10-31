@@ -2764,7 +2764,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f9c2727")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR082"
 			(at 120.65 80.01 0)
 			(effects
 				(font
@@ -2814,7 +2814,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/3e6b1080-2480-49a7-8bae-2dbfae5f98f5"
-					(reference "#PWR073")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -2829,7 +2829,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f9c272d")
-		(property "Reference" "R15"
+		(property "Reference" "R19"
 			(at 106.68 33.02 90)
 			(effects
 				(font
@@ -2889,7 +2889,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/3e6b1080-2480-49a7-8bae-2dbfae5f98f5"
-					(reference "R15")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -2904,7 +2904,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f9c2733")
-		(property "Reference" "R16"
+		(property "Reference" "R20"
 			(at 106.68 40.64 90)
 			(effects
 				(font
@@ -2964,7 +2964,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/3e6b1080-2480-49a7-8bae-2dbfae5f98f5"
-					(reference "R16")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -2979,7 +2979,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f9e5db6")
-		(property "Reference" "R20"
+		(property "Reference" "R16"
 			(at 68.58 144.78 90)
 			(effects
 				(font
@@ -3039,7 +3039,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/3e6b1080-2480-49a7-8bae-2dbfae5f98f5"
-					(reference "R20")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -3054,7 +3054,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f9e6b3c")
-		(property "Reference" "R19"
+		(property "Reference" "R15"
 			(at 68.58 138.176 90)
 			(effects
 				(font
@@ -3114,7 +3114,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/3e6b1080-2480-49a7-8bae-2dbfae5f98f5"
-					(reference "R19")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -3129,7 +3129,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f9e8a2f")
-		(property "Reference" "R21"
+		(property "Reference" "R14"
 			(at 53.34 157.48 90)
 			(effects
 				(font
@@ -3189,7 +3189,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/3e6b1080-2480-49a7-8bae-2dbfae5f98f5"
-					(reference "R21")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -3204,7 +3204,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f9eaae6")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR075"
 			(at 67.31 146.05 0)
 			(effects
 				(font
@@ -3253,7 +3253,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/3e6b1080-2480-49a7-8bae-2dbfae5f98f5"
-					(reference "#PWR078")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -3268,7 +3268,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f9eb8ab")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR076"
 			(at 66.04 147.32 0)
 			(effects
 				(font
@@ -3318,7 +3318,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/3e6b1080-2480-49a7-8bae-2dbfae5f98f5"
-					(reference "#PWR077")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -3401,7 +3401,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04f12970-a2f5-4acc-be2f-5f5d420296f4")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR078"
 			(at 80.01 57.15 0)
 			(effects
 				(font
@@ -3452,7 +3452,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/3e6b1080-2480-49a7-8bae-2dbfae5f98f5"
-					(reference "#PWR071")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -3467,7 +3467,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0f2ae9fb-0c40-47c9-b333-7c9feff7ccbb")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR073"
 			(at 44.45 68.58 0)
 			(effects
 				(font
@@ -3517,7 +3517,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/3e6b1080-2480-49a7-8bae-2dbfae5f98f5"
-					(reference "#PWR072")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -3533,7 +3533,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25f30430-ae31-4544-a993-b277e5f3c77a")
-		(property "Reference" "J5"
+		(property "Reference" "J4"
 			(at 81.28 142.2399 0)
 			(effects
 				(font
@@ -3598,7 +3598,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/3e6b1080-2480-49a7-8bae-2dbfae5f98f5"
-					(reference "J5")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -3606,15 +3606,14 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 109.22 33.02 0)
+		(at 109.22 40.64 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "48763530-6790-4c36-a956-7b56f37d9ad1")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR080"
 			(at 109.22 36.83 0)
 			(effects
 				(font
@@ -3624,15 +3623,16 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 109.22 27.94 0)
+			(at 111.252 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 33.02 0)
+			(at 109.22 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3641,7 +3641,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 33.02 0)
+			(at 109.22 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3650,7 +3650,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 109.22 33.02 0)
+			(at 109.22 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3664,7 +3664,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/3e6b1080-2480-49a7-8bae-2dbfae5f98f5"
-					(reference "#PWR081")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -3679,7 +3679,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "499bb0c3-3b6a-4042-93db-e529a1f3ff71")
-		(property "Reference" "C29"
+		(property "Reference" "C28"
 			(at 92.71 83.82 0)
 			(effects
 				(font
@@ -3733,7 +3733,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/3e6b1080-2480-49a7-8bae-2dbfae5f98f5"
-					(reference "C29")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -3749,7 +3749,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d64e289-e9ef-43b6-8f57-16adc70ff3a2")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR077"
 			(at 77.47 44.45 0)
 			(effects
 				(font
@@ -3799,7 +3799,7 @@
 		(instances
 			(project ""
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/3e6b1080-2480-49a7-8bae-2dbfae5f98f5"
-					(reference "#PWR070")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -3884,7 +3884,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "635805c6-59a1-4bed-bfd2-76bb1386e3ba")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR079"
 			(at 90.17 96.52 0)
 			(effects
 				(font
@@ -3935,7 +3935,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/3e6b1080-2480-49a7-8bae-2dbfae5f98f5"
-					(reference "#PWR075")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -3950,7 +3950,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "78abdc9a-b74c-4ac0-98e2-b8ef35c89735")
-		(property "Reference" "U10"
+		(property "Reference" "U11"
 			(at 73.152 55.118 0)
 			(effects
 				(font
@@ -4067,7 +4067,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/3e6b1080-2480-49a7-8bae-2dbfae5f98f5"
-					(reference "U10")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -4242,15 +4242,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 109.22 40.64 0)
+		(at 109.22 33.02 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "bfd429c8-cae4-4f6b-8607-20e4c6811388")
-		(property "Reference" "#PWR079"
-			(at 109.22 46.99 0)
+		(property "Reference" "#PWR081"
+			(at 109.22 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4259,7 +4259,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 109.347 45.0342 0)
+			(at 109.093 28.6258 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4267,7 +4267,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 40.64 0)
+			(at 109.22 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4276,7 +4276,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 40.64 0)
+			(at 109.22 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4285,7 +4285,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 40.64 0)
+			(at 109.22 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4299,7 +4299,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/3e6b1080-2480-49a7-8bae-2dbfae5f98f5"
-					(reference "#PWR079")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -4314,7 +4314,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "caf16331-fab3-48f0-a616-f18c76d194c1")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 118.618 68.326 0)
 			(effects
 				(font
@@ -4370,7 +4370,7 @@
 		(instances
 			(project ""
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/3e6b1080-2480-49a7-8bae-2dbfae5f98f5"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -4385,7 +4385,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "de5349e4-e089-4abc-8c67-a065cd33105f")
-		(property "Reference" "C28"
+		(property "Reference" "C27"
 			(at 82.55 43.18 0)
 			(effects
 				(font
@@ -4447,7 +4447,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/3e6b1080-2480-49a7-8bae-2dbfae5f98f5"
-					(reference "C28")
+					(reference "C27")
 					(unit 1)
 				)
 			)

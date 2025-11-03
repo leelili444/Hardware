@@ -3608,8 +3608,8 @@
 		(uuid "39af5d44-c518-4138-8c04-e68ee590d784")
 	)
 	(no_connect
-		(at 102.87 134.62)
-		(uuid "444078ad-8fd8-46df-a185-73bfa98cd5c1")
+		(at 62.23 124.46)
+		(uuid "3c9f58f8-c19f-41d9-9a83-67f67c9ff0dd")
 	)
 	(no_connect
 		(at 105.41 144.78)
@@ -3620,16 +3620,12 @@
 		(uuid "4a898227-5249-4bed-84c6-e17039d01547")
 	)
 	(no_connect
+		(at 62.23 129.54)
+		(uuid "4e43e3cd-eb2e-407a-a437-3c2606a899c6")
+	)
+	(no_connect
 		(at 62.23 147.32)
 		(uuid "51bce942-d3d7-40f1-9038-855baa5c5f18")
-	)
-	(no_connect
-		(at 102.87 162.56)
-		(uuid "53f76485-eb9a-4ff0-85de-b796faf5c8b8")
-	)
-	(no_connect
-		(at 102.87 160.02)
-		(uuid "5c5e4546-87dd-49e1-b2b7-2ee6f1b83d02")
 	)
 	(no_connect
 		(at 62.23 116.84)
@@ -3638,14 +3634,6 @@
 	(no_connect
 		(at 102.87 129.54)
 		(uuid "69475175-2d30-4ce3-9461-5474d0ec2969")
-	)
-	(no_connect
-		(at 102.87 116.84)
-		(uuid "87084753-9676-4efd-883e-b5b75fae3fdd")
-	)
-	(no_connect
-		(at 102.87 137.16)
-		(uuid "92afe321-43c8-4045-b210-b669dec280c7")
 	)
 	(no_connect
 		(at 102.87 93.98)
@@ -3664,8 +3652,8 @@
 		(uuid "c5517d4f-12a4-43a2-b181-7c822f1ba781")
 	)
 	(no_connect
-		(at 102.87 114.3)
-		(uuid "db4e2070-78c3-42bd-b455-7e3a80d0442f")
+		(at 62.23 142.24)
+		(uuid "e44cca3d-0ea8-4729-ae12-16f9cf732711")
 	)
 	(no_connect
 		(at 62.23 127)
@@ -3682,6 +3670,10 @@
 	(no_connect
 		(at 102.87 91.44)
 		(uuid "f86716ae-b594-4804-bc60-d4aee3dd7b7c")
+	)
+	(no_connect
+		(at 62.23 139.7)
+		(uuid "fb357052-a851-4cce-b251-1456d8eb894a")
 	)
 	(no_connect
 		(at 62.23 104.14)
@@ -4749,26 +4741,6 @@
 			)
 		)
 	)
-	(global_label "GYRO_CS"
-		(shape input)
-		(at 62.23 124.46 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3ec8a869-9de2-484f-aee8-ab0ff24f067a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.23 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SWCLK"
 		(shape input)
 		(at 105.41 127 0)
@@ -4831,6 +4803,26 @@
 			)
 		)
 	)
+	(global_label "GYRO_CS"
+		(shape input)
+		(at 102.87 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "54d40401-2eb3-406a-8584-51f73a888943")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.87 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USART2_TX"
 		(shape input)
 		(at 102.87 96.52 0)
@@ -4851,26 +4843,6 @@
 			)
 		)
 	)
-	(global_label "USART3_TX"
-		(shape input)
-		(at 62.23 139.7 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6ead5e9b-adb1-4193-aaaa-d0d6823f66d9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.23 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "BOOT1"
 		(shape input)
 		(at 105.41 139.7 0)
@@ -4883,26 +4855,6 @@
 		(uuid "6ed5c6ba-7abf-4cbd-b47e-c0edff72f4ff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 105.41 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USART3_RX"
-		(shape input)
-		(at 62.23 142.24 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6ffc6886-ff9d-4d09-987c-03809d3614b0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.23 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4949,6 +4901,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPS_SCL"
+		(shape input)
+		(at 102.87 160.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "76ffbe62-4e12-4b28-8893-cfec65643c8c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.0799 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5011,6 +4985,68 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GYRO_INT2"
+		(shape input)
+		(at 102.87 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "873be1ed-1d66-468f-94c8-4db56ec94cd1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.87 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPS_SDA"
+		(shape input)
+		(at 102.87 162.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "882c5770-f844-44b5-bff3-25896e36d67e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.1404 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Serial_RX"
+		(shape input)
+		(at 102.87 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "89f519f6-1ffa-414d-ba11-c2031376f51e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.87 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -5141,6 +5177,26 @@
 			)
 		)
 	)
+	(global_label "Serial_TX"
+		(shape input)
+		(at 102.87 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d0f395a9-e33f-40a8-bfa3-e9c29524956d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.87 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BOOT1"
 		(shape input)
 		(at 179.07 142.24 90)
@@ -5215,26 +5271,6 @@
 		(uuid "db4be914-38ef-441e-9e68-ab853731f6ae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 154.94 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GYRO_INT2"
-		(shape input)
-		(at 62.23 129.54 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e836154b-b5e9-4cfe-b157-266faf9a64ee")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.23 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)

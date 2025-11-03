@@ -1299,7 +1299,7 @@
 	)
 	(polyline
 		(pts
-			(xy 41.529 85.725) (xy 187.325 85.725)
+			(xy 43.434 53.34) (xy 189.23 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1561,7 +1561,7 @@
 			)
 		)
 	)
-	(global_label "Flash_CLK"
+	(global_label "Flash_SCK"
 		(shape input)
 		(at 68.58 142.24 180)
 		(fields_autoplaced yes)
@@ -1573,7 +1573,7 @@
 		)
 		(uuid "55fe8e70-bbff-45ce-a9a6-e25c93543566")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.5512 142.1606 0)
+			(at 55.7978 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)

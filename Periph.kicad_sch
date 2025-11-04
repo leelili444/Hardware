@@ -3019,7 +3019,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b31d30ed-912f-458d-a804-9beeecf2c534")
-		(property "Reference" "LSE"
+		(property "Reference" "LSE1"
 			(at 109.22 20.32 0)
 			(effects
 				(font
@@ -3128,7 +3128,7 @@
 		(instances
 			(project ""
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/57f4b5bf-da86-4b65-9b05-7c9ef99c472c"
-					(reference "LSE")
+					(reference "LSE1")
 					(unit 1)
 				)
 			)

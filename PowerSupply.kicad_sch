@@ -699,156 +699,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:Jumper_2_Open"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper_2_Open"
-				(at 0 -2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Jumper, 2-pole, open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper_2_Open_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_0_1"
-				(arc
-					(start -1.524 1.27)
-					(mid 0 1.778)
-					(end 1.524 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Regulator_Linear:NCP1117-5.0_SOT223"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -976,6 +826,176 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SSSS213000:SSSS213000"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 19.05 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "SSSS213000"
+				(at 19.05 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SSSS213000"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.alps.com/prod/info/E/HTML/Switch/Slide/SSSS2/SSSS213000.html"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Slide Switches 1-pole 2-positions"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "5"
+				(at 19.05 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Avnet Part Number" ""
+				(at 19.05 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Avnet Price/Stock" ""
+				(at 19.05 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "ALPS Electric"
+				(at 19.05 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SSSS213000"
+				(at 19.05 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "SSSS213000_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 17.78 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 22.86 0 180)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -2.54 180)
+					(length 5.08)
+					(name "NO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4048,6 +4068,12 @@
 		(uuid "8d291c92-3a4b-4d45-936c-5fadeedb1b39")
 	)
 	(junction
+		(at 231.14 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d81b7c4-9937-42d4-b59c-0a9f9bf2182b")
+	)
+	(junction
 		(at 69.85 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4076,12 +4102,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e08ab98a-cb42-402e-9ee2-39359d78353d")
-	)
-	(junction
-		(at 229.87 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e4ba1433-1feb-45b0-b32a-b07045b586f8")
 	)
 	(junction
 		(at 115.57 64.77)
@@ -4170,16 +4190,6 @@
 			(type default)
 		)
 		(uuid "020f879d-2200-4c42-bc8b-3c608325d8a5")
-	)
-	(wire
-		(pts
-			(xy 226.06 83.82) (xy 229.87 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06bd429e-5d3b-47a5-a21f-50d6d4811cc6")
 	)
 	(wire
 		(pts
@@ -4403,16 +4413,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 83.82) (xy 215.9 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "357b841e-70ed-4d98-be01-c42260119577")
-	)
-	(wire
-		(pts
 			(xy 205.74 39.37) (xy 214.63 39.37)
 		)
 		(stroke
@@ -4603,6 +4603,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 82.55) (xy 231.14 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "551ee287-969b-47ac-8630-015ee74c69c6")
+	)
+	(wire
+		(pts
 			(xy 261.62 45.72) (xy 262.89 45.72)
 		)
 		(stroke
@@ -4643,16 +4653,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 71.12) (xy 215.9 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d876373-3dae-4823-b262-3b0a27291c31")
-	)
-	(wire
-		(pts
 			(xy 128.27 54.61) (xy 123.19 54.61)
 		)
 		(stroke
@@ -4660,16 +4660,6 @@
 			(type default)
 		)
 		(uuid "5ee6e5e3-76ed-4f6d-aa80-f8457416ad98")
-	)
-	(wire
-		(pts
-			(xy 229.87 83.82) (xy 229.87 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60699bdd-bcc6-45a3-8f1e-517546e470ed")
 	)
 	(wire
 		(pts
@@ -4813,16 +4803,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 71.12) (xy 226.06 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85a799e5-4f2a-443d-9afa-0c949e9f6921")
-	)
-	(wire
-		(pts
 			(xy 166.37 74.93) (xy 166.37 72.39)
 		)
 		(stroke
@@ -4860,16 +4840,6 @@
 			(type default)
 		)
 		(uuid "8e8d31bd-6ce6-4aa4-9b27-90ab49c8e1c5")
-	)
-	(wire
-		(pts
-			(xy 229.87 68.58) (xy 229.87 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f0450e7-b329-4cb7-90c0-dd1e2ce8ecff")
 	)
 	(polyline
 		(pts
@@ -5273,6 +5243,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 73.66) (xy 231.14 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5bee1b0-906f-4c92-be50-84d2523ed1b0")
+	)
+	(wire
+		(pts
 			(xy 254 34.29) (xy 251.46 34.29)
 		)
 		(stroke
@@ -5649,28 +5629,6 @@
 	)
 	(global_label "Serial_VBUS"
 		(shape input)
-		(at 213.36 83.82 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "686f7cbb-2117-4c65-9638-905c8b58b83c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.5774 83.7406 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Serial_VBUS"
-		(shape input)
 		(at 254 99.06 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5773,6 +5731,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Serial_VBUS"
+		(shape input)
+		(at 231.14 82.55 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a010a4ff-8e62-492a-8e47-d4937d618fc0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 231.14 96.9047 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5889,7 +5869,7 @@
 	)
 	(global_label "Native_VBUS"
 		(shape input)
-		(at 213.36 71.12 180)
+		(at 208.28 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5899,7 +5879,7 @@
 		)
 		(uuid "c8da9a4a-d7e1-438f-aa3a-e82565d4f5b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.2145 71.1994 0)
+			(at 194.1345 73.7394 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6151,6 +6131,131 @@
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
 					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SSSS213000:SSSS213000")
+		(at 231.14 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12b86cf1-ef7f-49b1-9080-57f633c51279")
+		(property "Reference" "SW2"
+			(at 219.71 68.326 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SSSS213000"
+			(at 219.7101 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "mylib:SSSS213000"
+			(at 212.09 -18.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.alps.com/prod/info/E/HTML/Switch/Slide/SSSS2/SSSS213000.html"
+			(at 212.09 -118.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Slide Switches 1-pole 2-positions"
+			(at 231.14 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "5"
+			(at 212.09 -318.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Avnet Part Number" ""
+			(at 212.09 -418.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Avnet Price/Stock" ""
+			(at 212.09 -518.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ALPS Electric"
+			(at 212.09 -618.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SSSS213000"
+			(at 212.09 -718.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a4764ef9-32e1-424f-afb0-d892a2957d34")
+		)
+		(pin "1"
+			(uuid "4f61a5fb-ea50-4581-89b9-dfd822149ceb")
+		)
+		(pin "2"
+			(uuid "d3817a18-bb4f-47b9-9304-32df5bd6368b")
+		)
+		(instances
+			(project "MX_IMU"
+				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -8217,6 +8322,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 231.14 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72da3c0b-c1d6-4a55-b28b-49b7bab9e122")
+		(property "Reference" "#PWR095"
+			(at 231.14 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 231.14 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 231.14 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8580a59a-13d9-4600-9c79-04c39e57584d")
+		)
+		(instances
+			(project "MX_IMU"
+				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
+					(reference "#PWR095")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 69.85 148.59 0)
 		(unit 1)
@@ -8363,73 +8534,6 @@
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 229.87 71.12 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "801d7fa6-dc98-44f0-b5eb-4adae08237cd")
-		(property "Reference" "#FLG05"
-			(at 231.775 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 233.68 71.1199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 229.87 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 229.87 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 229.87 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c69223ba-85b3-40ce-a54b-08f8cc831629")
-		)
-		(instances
-			(project "MX_IMU"
-				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -8864,73 +8968,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 220.98 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9d7ce1f5-175d-4c7c-8991-56b98e75cabf")
-		(property "Reference" "JP2"
-			(at 220.98 78.4692 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Jumper_2_Open"
-			(at 220.98 81.0061 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 220.98 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 220.98 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 220.98 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6ecf8f9b-21b2-4c36-a5f5-0fcb5370d016")
-		)
-		(pin "2"
-			(uuid "4f2a6823-5e86-47eb-96fe-bdd075635582")
-		)
-		(instances
-			(project "MX_IMU"
-				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "JP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 77.47 85.09 0)
 		(unit 1)
@@ -9261,32 +9298,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 220.98 71.12 0)
+		(lib_id "power:PWR_FLAG")
+		(at 231.14 76.2 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "af6a7599-cb36-4c0a-9a65-f206a00066d3")
-		(property "Reference" "JP1"
-			(at 220.98 65.7692 0)
+		(fields_autoplaced yes)
+		(uuid "b1d4c07b-1b5f-4894-a84e-420760f6db56")
+		(property "Reference" "#FLG07"
+			(at 233.045 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "Jumper_2_Open"
-			(at 220.98 68.3061 0)
+		(property "Value" "PWR_FLAG"
+			(at 234.95 76.1999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 220.98 71.12 0)
+		(property "Footprint" ""
+			(at 231.14 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9295,7 +9335,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 220.98 71.12 0)
+			(at 231.14 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9303,24 +9343,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 220.98 71.12 0)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 231.14 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "6e684ddd-bbbd-4f5b-9fad-ab1bd1aedd89")
-		)
-		(pin "2"
-			(uuid "d6eea82b-5ee3-4bfd-b0e2-b091272ef558")
+			(uuid "d7ecfa61-3377-4f03-b47d-7dcf91d3417f")
 		)
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "JP1")
+					(reference "#FLG07")
 					(unit 1)
 				)
 			)
@@ -9564,72 +9602,6 @@
 			(project ""
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
 					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 229.87 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c127f6d5-d381-423e-a1e8-200da894959f")
-		(property "Reference" "#PWR038"
-			(at 229.87 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 229.87 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 229.87 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 229.87 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 229.87 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "59a6c299-85ec-4560-939c-613800d62ba9")
-		)
-		(instances
-			(project ""
-				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "#PWR038")
 					(unit 1)
 				)
 			)

@@ -1,4 +1,4 @@
-26781759920968895
+26788808746150626
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106491,6 +106491,20 @@ S2B-ZRLFSN
 2
 2
 mylib
+CONN_SM04B-GHS-TB_JST
+
+SM04B-GHS-TB 
+0
+6
+6
+mylib
+CONN_SM06B-GHS-TB_JST
+
+SM06B-GHS-TB 
+0
+8
+8
+mylib
 CON_353630460
 
 
@@ -106533,9 +106547,23 @@ SON65P300X300X100-9N
 9
 9
 mylib
+SSSS213000
+SSSS213000
+Schottky Diode
+0
+3
+3
+mylib
 WS2812B-2020
 4684-3
 LED
+0
+4
+4
+mylib
+XTAL_ASEK-32.768KHZ-L-R-T
+
+
 0
 4
 4

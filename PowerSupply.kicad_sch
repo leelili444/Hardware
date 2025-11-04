@@ -5,6 +5,190 @@
 	(uuid "d06763a4-3796-4ee5-86ef-51d0ee95557e")
 	(paper "A4")
 	(lib_symbols
+		(symbol "B2B-PH-K-S:B2B-PH-K-S"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -5.58 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "B2B-PH-K-S"
+				(at -5.08 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "B2B-PH-K-S:JST_B2B-PH-K-S"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "JST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "B2B-PH-K-S_0_0"
+				(polyline
+					(pts
+						(xy -5.08 3.81) (xy -3.81 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -3.175 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -3.175 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -1.27) (xy -3.81 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -4.445 2.2225)
+					(end -2.8575 2.8575)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -4.445 -0.3175)
+					(end -2.8575 0.3175)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -4.2863 -2.54)
+					(end 5.8738 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -840,25 +1024,26 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D"
-				(at 19.05 7.62 0)
+			(property "Reference" "SW2"
+				(at 11.43 -7.874 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left)
 				)
 			)
 			(property "Value" "SSSS213000"
-				(at 19.05 5.08 0)
+				(at 11.4299 12.7 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left)
+					(hide yes)
 				)
 			)
-			(property "Footprint" "SSSS213000"
+			(property "Footprint" "mylib:SSSS213000"
 				(at 19.05 -94.92 0)
 				(effects
 					(font
@@ -967,7 +1152,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 22.86 0 180)
 					(length 5.08)
 					(name "NC"
@@ -1436,402 +1621,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "jst_zh:S2B-ZRLFSN"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 8.89 6.35 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "S2B-ZRLFSN"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "CONN_S2B-ZR_JST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "S2B-ZRLFSN"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "S2B-ZR(LF)(SN)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CONN_S2B-ZR_JST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "S2B-ZRLFSN_1_1"
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -5.08) (xy 12.7 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 8.89 0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 8.89 -0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 8.89 -1.6933)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 8.89 -3.3867)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -5.08) (xy 12.7 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "S2B-ZRLFSN_1_2"
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -5.08) (xy 12.7 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 8.89 0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 8.89 -0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 8.89 -1.6933)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 8.89 -3.3867)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -5.08) (xy 12.7 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3996,12 +3785,6 @@
 		(uuid "4531c84d-8af5-4f0f-acc4-c7f9cc34655e")
 	)
 	(junction
-		(at 36.83 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "47342512-8630-4859-93cd-e5e165193592")
-	)
-	(junction
 		(at 77.47 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4096,6 +3879,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5d17419-f377-4c06-9261-3762b85bbc0f")
+	)
+	(junction
+		(at 58.42 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db5953dc-c478-4cc4-a3d6-53abfc2265e9")
 	)
 	(junction
 		(at 138.43 90.17)
@@ -4603,16 +4392,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 82.55) (xy 231.14 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "551ee287-969b-47ac-8630-015ee74c69c6")
-	)
-	(wire
-		(pts
 			(xy 261.62 45.72) (xy 262.89 45.72)
 		)
 		(stroke
@@ -4770,16 +4549,6 @@
 			(type default)
 		)
 		(uuid "72bcc2bd-2e71-4510-8b1f-f58348590de5")
-	)
-	(wire
-		(pts
-			(xy 36.83 39.37) (xy 36.83 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fa8f632-bb66-4f40-bd38-44f7e6e10d8d")
 	)
 	(wire
 		(pts
@@ -5737,7 +5506,7 @@
 	)
 	(global_label "Serial_VBUS"
 		(shape input)
-		(at 231.14 82.55 270)
+		(at 208.28 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5747,7 +5516,7 @@
 		)
 		(uuid "a010a4ff-8e62-492a-8e47-d4937d618fc0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.14 96.9047 90)
+			(at 193.9253 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5999,6 +5768,87 @@
 		)
 	)
 	(symbol
+		(lib_id "B2B-PH-K-S:B2B-PH-K-S")
+		(at 68.58 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07455bd5-fab6-473a-b9f0-ce3b1a24bcdb")
+		(property "Reference" "J1"
+			(at 76.2 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B2B-PH-K-S"
+			(at 76.2 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "mylib:JST_B2B-PH-K-S"
+			(at 68.58 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "JST"
+			(at 68.58 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a6f48f72-dc39-4a58-b6b8-d268a69bc241")
+		)
+		(pin "1"
+			(uuid "6918871a-3be4-4bcb-929f-cf2592df13b8")
+		)
+		(instances
+			(project ""
+				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Linear:NCP1117-5.0_SOT223")
 		(at 69.85 54.61 0)
 		(unit 1)
@@ -6145,7 +5995,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "12b86cf1-ef7f-49b1-9080-57f633c51279")
-		(property "Reference" "SW2"
+		(property "Reference" "SW1"
 			(at 219.71 68.326 0)
 			(effects
 				(font
@@ -6255,7 +6105,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "SW2")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -6270,7 +6120,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "12e7d15b-3aa6-4f2a-9362-9b3102106fe6")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR011"
 			(at 38.1 93.98 0)
 			(effects
 				(font
@@ -6320,7 +6170,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "#PWR013")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -6397,7 +6247,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 36.83 41.91 0)
+		(at 58.42 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6405,8 +6255,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14f90292-e58e-4af0-9832-3e20233bf719")
-		(property "Reference" "#PWR010"
-			(at 36.83 48.26 0)
+		(property "Reference" "#PWR017"
+			(at 58.42 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6415,7 +6265,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 36.83 46.3534 0)
+			(at 58.42 38.7334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6423,7 +6273,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 41.91 0)
+			(at 58.42 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6432,7 +6282,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 41.91 0)
+			(at 58.42 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6441,7 +6291,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 36.83 41.91 0)
+			(at 58.42 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6454,7 +6304,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "#PWR010")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -7032,7 +6882,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f557048-b801-47f2-814a-d40117fed998")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR09"
 			(at 36.83 157.48 0)
 			(effects
 				(font
@@ -7081,7 +6931,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "#PWR011")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -7097,7 +6947,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2faaf9a1-665c-480c-9b44-093ebba460d8")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR015"
 			(at 57.15 121.92 0)
 			(effects
 				(font
@@ -7146,7 +6996,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "#PWR017")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -7624,78 +7474,6 @@
 		)
 	)
 	(symbol
-		(lib_id "jst_zh:S2B-ZRLFSN")
-		(at 36.83 39.37 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4c5a865f-186d-402a-9639-cd556ccac5a6")
-		(property "Reference" "J1"
-			(at 27.94 31.75 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "S2B-ZRLFSN"
-			(at 22.86 36.8301 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "mylib:CONN_S2B-ZR_JST"
-			(at 36.83 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "S2B-ZRLFSN"
-			(at 36.83 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 36.83 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6f01cb90-daf8-4434-b6ee-e0488733bfbd")
-		)
-		(pin "1"
-			(uuid "0c3873df-c540-4cf0-8fc4-d1662b94ef64")
-		)
-		(instances
-			(project ""
-				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 214.63 45.72 0)
 		(unit 1)
@@ -7770,7 +7548,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "534ab384-81fb-4871-b359-677f9d24a31c")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR012"
 			(at 43.18 144.78 0)
 			(effects
 				(font
@@ -7819,7 +7597,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "#PWR014")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -8066,7 +7844,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66d68e85-dfb4-4e0b-a232-5be1ceb045d0")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR013"
 			(at 45.72 196.85 0)
 			(effects
 				(font
@@ -8115,7 +7893,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "#PWR015")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -8265,7 +8043,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d4f0c66-f737-45ad-bda4-0bebdf041e6f")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR014"
 			(at 57.15 53.34 0)
 			(effects
 				(font
@@ -8315,7 +8093,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "#PWR016")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -8331,7 +8109,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72da3c0b-c1d6-4a55-b28b-49b7bab9e122")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR038"
 			(at 231.14 77.47 0)
 			(effects
 				(font
@@ -8381,7 +8159,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "#PWR095")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -8616,7 +8394,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 36.83 36.83 0)
+		(at 58.42 31.75 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8624,8 +8402,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81b91a70-69dc-4b3d-a66a-8fdafddfca89")
-		(property "Reference" "#PWR09"
-			(at 36.83 40.64 0)
+		(property "Reference" "#PWR016"
+			(at 62.23 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8634,7 +8412,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 36.83 31.75 0)
+			(at 53.34 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8642,7 +8420,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 36.83 0)
+			(at 58.42 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8651,7 +8429,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 36.83 0)
+			(at 58.42 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8660,7 +8438,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 36.83 36.83 0)
+			(at 58.42 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8672,9 +8450,9 @@
 			(uuid "da59536a-ae4c-4673-95fb-213165131424")
 		)
 		(instances
-			(project ""
+			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "#PWR09")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -9307,7 +9085,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1d4c07b-1b5f-4894-a84e-420760f6db56")
-		(property "Reference" "#FLG07"
+		(property "Reference" "#FLG05"
 			(at 233.045 76.2 0)
 			(effects
 				(font
@@ -9358,7 +9136,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "#FLG07")
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -9542,7 +9320,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 36.83 36.83 270)
+		(at 58.42 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9551,7 +9329,7 @@
 		(fields_autoplaced yes)
 		(uuid "b9c82ec1-0002-4d63-983d-c9eba767037f")
 		(property "Reference" "#FLG01"
-			(at 38.735 36.83 0)
+			(at 58.42 29.845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9560,7 +9338,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 40.64 36.8299 90)
+			(at 58.4199 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9569,7 +9347,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 36.83 0)
+			(at 58.42 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9578,7 +9356,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 36.83 0)
+			(at 58.42 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9587,7 +9365,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 36.83 36.83 0)
+			(at 58.42 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9599,7 +9377,7 @@
 			(uuid "f310ce08-d04b-46d5-8b92-d3cad702805c")
 		)
 		(instances
-			(project ""
+			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
 					(reference "#FLG01")
 					(unit 1)
@@ -11041,7 +10819,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea8d685c-07ad-43c8-8ded-5573ea40daa5")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR010"
 			(at 38.1 72.39 0)
 			(effects
 				(font
@@ -11091,7 +10869,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "#PWR012")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)

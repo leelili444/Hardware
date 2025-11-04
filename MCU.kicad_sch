@@ -8709,7 +8709,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1cfbf113-b454-4c9b-a589-10a73b0e294d")
-		(property "Reference" "SW1"
+		(property "Reference" "SW2"
 			(at 160.02 136.906 0)
 			(effects
 				(font
@@ -8819,7 +8819,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/39c93069-edc2-4035-8fc7-27a45736847d"
-					(reference "SW1")
+					(reference "SW2")
 					(unit 1)
 				)
 			)

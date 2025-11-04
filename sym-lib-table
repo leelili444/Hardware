@@ -15,4 +15,5 @@
   (lib (name "bt_oscillator")(type "KiCad")(uri "/home/leo/Downloads/bt_oscillator.kicad_sym")(options "")(descr ""))
   (lib (name "SM04B-GHS-TB")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/SM04B-GHS-TB.kicad_sym")(options "")(descr ""))
   (lib (name "SM06B-GHS-TB")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/SM06B-GHS-TB.kicad_sym")(options "")(descr ""))
+  (lib (name "ASEK-32.768KHZ-L-R-T")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/ASEK-32.768KHZ-L-R-T.kicad_sym")(options "")(descr ""))
 )

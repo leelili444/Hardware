@@ -3648,12 +3648,12 @@
 		(uuid "51bce942-d3d7-40f1-9038-855baa5c5f18")
 	)
 	(no_connect
-		(at 62.23 116.84)
-		(uuid "5e80eb4c-8243-4b91-ab15-04d938dec520")
+		(at 102.87 111.76)
+		(uuid "54d7f71c-1264-4f9b-b1e8-7224c6e86e68")
 	)
 	(no_connect
-		(at 102.87 162.56)
-		(uuid "613c5811-e103-42cc-b697-a5de7c7206a6")
+		(at 62.23 116.84)
+		(uuid "5e80eb4c-8243-4b91-ab15-04d938dec520")
 	)
 	(no_connect
 		(at 102.87 129.54)
@@ -6099,6 +6099,26 @@
 			)
 		)
 	)
+	(global_label "GYRO_LSE"
+		(shape input)
+		(at 102.87 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "32331420-1cd5-4c55-a632-43fd5d747021")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.87 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPS_RX"
 		(shape input)
 		(at 62.23 142.24 180)
@@ -6111,6 +6131,26 @@
 		(uuid "3a21cdab-b67f-40ba-a0ea-0a6a136b2216")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 62.23 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GYRO_LSE"
+		(shape input)
+		(at 143.51 173.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3bd0c83c-22ed-4e5f-9819-549798c140c6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.51 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6259,26 +6299,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GYRO_INT2"
-		(shape input)
-		(at 102.87 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6e80d713-43e8-49a0-aed9-c8d5ff36f070")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.87 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)

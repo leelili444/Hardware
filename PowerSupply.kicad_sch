@@ -5,52 +5,42 @@
 	(uuid "d06763a4-3796-4ee5-86ef-51d0ee95557e")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "B2B-PH-K-S:B2B-PH-K-S"
 			(pin_names
-				(offset 0.762)
-				(hide yes)
+				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
+			(property "Reference" "J"
+				(at -5.58 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
+			(property "Value" "B2B-PH-K-S"
+				(at -5.08 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
+			(property "Footprint" "B2B-PH-K-S:JST_B2B-PH-K-S"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -59,7 +49,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "test point tp"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -68,43 +58,130 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Pin* Test*"
+			(property "MANUFACTURER" "JST"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
+			(symbol "B2B-PH-K-S_0_0"
+				(polyline
+					(pts
+						(xy -5.08 3.81) (xy -3.81 5.08)
+					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "TestPoint_1_1"
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -3.175 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -3.175 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -1.27) (xy -3.81 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -4.445 2.2225)
+					(end -2.8575 2.8575)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -4.445 -0.3175)
+					(end -2.8575 0.3175)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -4.2863 -2.54)
+					(end 5.8738 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
+					(at -10.16 2.54 0)
+					(length 5.08)
 					(name "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -699,156 +776,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:Jumper_2_Open"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper_2_Open"
-				(at 0 -2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Jumper, 2-pole, open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper_2_Open_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_0_1"
-				(arc
-					(start -1.524 1.27)
-					(mid 0 1.778)
-					(end 1.524 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Regulator_Linear:NCP1117-5.0_SOT223"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -976,6 +903,176 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SSSS213000:SSSS213000"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 19.05 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "SSSS213000"
+				(at 19.05 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SSSS213000"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.alps.com/prod/info/E/HTML/Switch/Slide/SSSS2/SSSS213000.html"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Slide Switches 1-pole 2-positions"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "5"
+				(at 19.05 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Avnet Part Number" ""
+				(at 19.05 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Avnet Price/Stock" ""
+				(at 19.05 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "ALPS Electric"
+				(at 19.05 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SSSS213000"
+				(at 19.05 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "SSSS213000_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 17.78 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 0 180)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -2.54 180)
+					(length 5.08)
+					(name "NO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1416,402 +1513,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "jst_zh:S2B-ZRLFSN"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 8.89 6.35 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "S2B-ZRLFSN"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "CONN_S2B-ZR_JST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "S2B-ZRLFSN"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "S2B-ZR(LF)(SN)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CONN_S2B-ZR_JST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "S2B-ZRLFSN_1_1"
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -5.08) (xy 12.7 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 8.89 0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 8.89 -0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 8.89 -1.6933)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 8.89 -3.3867)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -5.08) (xy 12.7 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "S2B-ZRLFSN_1_2"
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -5.08) (xy 12.7 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 8.89 0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 8.89 -0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 8.89 -1.6933)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 8.89 -3.3867)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -5.08) (xy 12.7 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3976,12 +3677,6 @@
 		(uuid "4531c84d-8af5-4f0f-acc4-c7f9cc34655e")
 	)
 	(junction
-		(at 36.83 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "47342512-8630-4859-93cd-e5e165193592")
-	)
-	(junction
 		(at 77.47 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4048,6 +3743,12 @@
 		(uuid "8d291c92-3a4b-4d45-936c-5fadeedb1b39")
 	)
 	(junction
+		(at 231.14 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d81b7c4-9937-42d4-b59c-0a9f9bf2182b")
+	)
+	(junction
 		(at 69.85 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4072,16 +3773,16 @@
 		(uuid "d5d17419-f377-4c06-9261-3762b85bbc0f")
 	)
 	(junction
+		(at 58.42 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db5953dc-c478-4cc4-a3d6-53abfc2265e9")
+	)
+	(junction
 		(at 138.43 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e08ab98a-cb42-402e-9ee2-39359d78353d")
-	)
-	(junction
-		(at 229.87 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e4ba1433-1feb-45b0-b32a-b07045b586f8")
 	)
 	(junction
 		(at 115.57 64.77)
@@ -4170,16 +3871,6 @@
 			(type default)
 		)
 		(uuid "020f879d-2200-4c42-bc8b-3c608325d8a5")
-	)
-	(wire
-		(pts
-			(xy 226.06 83.82) (xy 229.87 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06bd429e-5d3b-47a5-a21f-50d6d4811cc6")
 	)
 	(wire
 		(pts
@@ -4400,16 +4091,6 @@
 			(type dash)
 		)
 		(uuid "32797329-f571-4fc3-9c29-0757acb2d26d")
-	)
-	(wire
-		(pts
-			(xy 213.36 83.82) (xy 215.9 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "357b841e-70ed-4d98-be01-c42260119577")
 	)
 	(wire
 		(pts
@@ -4643,16 +4324,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 71.12) (xy 215.9 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d876373-3dae-4823-b262-3b0a27291c31")
-	)
-	(wire
-		(pts
 			(xy 128.27 54.61) (xy 123.19 54.61)
 		)
 		(stroke
@@ -4660,16 +4331,6 @@
 			(type default)
 		)
 		(uuid "5ee6e5e3-76ed-4f6d-aa80-f8457416ad98")
-	)
-	(wire
-		(pts
-			(xy 229.87 83.82) (xy 229.87 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60699bdd-bcc6-45a3-8f1e-517546e470ed")
 	)
 	(wire
 		(pts
@@ -4733,6 +4394,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 76.2) (xy 231.14 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b7c241a-4612-46e5-a519-819840146f9b")
+	)
+	(wire
+		(pts
 			(xy 241.3 110.49) (xy 240.03 110.49)
 		)
 		(stroke
@@ -4783,16 +4454,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 39.37) (xy 36.83 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fa8f632-bb66-4f40-bd38-44f7e6e10d8d")
-	)
-	(wire
-		(pts
 			(xy 251.46 58.42) (xy 251.46 59.69)
 		)
 		(stroke
@@ -4810,16 +4471,6 @@
 			(type default)
 		)
 		(uuid "83225716-5bc4-4192-8ff1-92e3ed59e018")
-	)
-	(wire
-		(pts
-			(xy 229.87 71.12) (xy 226.06 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85a799e5-4f2a-443d-9afa-0c949e9f6921")
 	)
 	(wire
 		(pts
@@ -4860,16 +4511,6 @@
 			(type default)
 		)
 		(uuid "8e8d31bd-6ce6-4aa4-9b27-90ab49c8e1c5")
-	)
-	(wire
-		(pts
-			(xy 229.87 68.58) (xy 229.87 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f0450e7-b329-4cb7-90c0-dd1e2ce8ecff")
 	)
 	(polyline
 		(pts
@@ -4961,16 +4602,6 @@
 		)
 		(uuid "9df976c9-aeec-4458-a135-c795be437ada")
 	)
-	(wire
-		(pts
-			(xy 38.1 68.58) (xy 38.1 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f241577-6ef1-428c-819f-bb33fcd12dc7")
-	)
 	(polyline
 		(pts
 			(xy 16.51 124.46) (xy 16.51 196.85)
@@ -5020,16 +4651,6 @@
 			(type default)
 		)
 		(uuid "afbe5ad5-96eb-4156-8dfc-c10195697689")
-	)
-	(wire
-		(pts
-			(xy 38.1 90.17) (xy 38.1 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b251ff17-59b0-48e1-97d7-403f0579c752")
 	)
 	(wire
 		(pts
@@ -5161,16 +4782,6 @@
 		)
 		(uuid "c7ee407a-19c3-4f22-a6f6-0afe0a7eb8f1")
 	)
-	(wire
-		(pts
-			(xy 25.4 68.58) (xy 25.4 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cac26e61-817a-4c2c-9de6-33fcddc94e05")
-	)
 	(polyline
 		(pts
 			(xy 110.49 134.62) (xy 16.51 134.62)
@@ -5210,16 +4821,6 @@
 			(type default)
 		)
 		(uuid "cfe20e67-7923-4564-bba6-f464def2220e")
-	)
-	(wire
-		(pts
-			(xy 25.4 90.17) (xy 25.4 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d01d7f41-3445-41f4-9498-5e1341165ff1")
 	)
 	(wire
 		(pts
@@ -5270,6 +4871,16 @@
 			(type dash)
 		)
 		(uuid "d3c4efa4-ad24-4285-8d60-1ce223c1b886")
+	)
+	(wire
+		(pts
+			(xy 231.14 73.66) (xy 231.14 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5bee1b0-906f-4c92-be50-84d2523ed1b0")
 	)
 	(wire
 		(pts
@@ -5649,28 +5260,6 @@
 	)
 	(global_label "Serial_VBUS"
 		(shape input)
-		(at 213.36 83.82 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "686f7cbb-2117-4c65-9638-905c8b58b83c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.5774 83.7406 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Serial_VBUS"
-		(shape input)
 		(at 254 99.06 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5773,6 +5362,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Serial_VBUS"
+		(shape input)
+		(at 208.28 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a010a4ff-8e62-492a-8e47-d4937d618fc0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.9253 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5889,7 +5500,7 @@
 	)
 	(global_label "Native_VBUS"
 		(shape input)
-		(at 213.36 71.12 180)
+		(at 208.28 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5899,7 +5510,7 @@
 		)
 		(uuid "c8da9a4a-d7e1-438f-aa3a-e82565d4f5b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.2145 71.1994 0)
+			(at 194.1345 73.7394 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5954,43 +5565,45 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 25.4 72.39 180)
+		(lib_id "B2B-PH-K-S:B2B-PH-K-S")
+		(at 68.58 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "03b7bbb0-685c-4740-9f21-3257b94a8d22")
-		(property "Reference" "TP1"
-			(at 26.797 74.8573 0)
+		(fields_autoplaced yes)
+		(uuid "07455bd5-fab6-473a-b9f0-ce3b1a24bcdb")
+		(property "Reference" "J1"
+			(at 76.2 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 20.32 78.74 0)
+		(property "Value" "B2B-PH-K-S"
+			(at 76.2 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 20.32 72.39 0)
+		(property "Footprint" "mylib:JST_B2B-PH-K-S"
+			(at 68.58 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 20.32 72.39 0)
+		(property "Datasheet" ""
+			(at 68.58 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5999,20 +5612,34 @@
 			)
 		)
 		(property "Description" ""
-			(at 25.4 72.39 0)
+			(at 68.58 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "JST"
+			(at 68.58 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a6f48f72-dc39-4a58-b6b8-d268a69bc241")
+		)
 		(pin "1"
-			(uuid "e7ec478e-6030-44f8-a667-9b5c3635b4be")
+			(uuid "6918871a-3be4-4bcb-929f-cf2592df13b8")
 		)
 		(instances
-			(project "MX_IMU"
+			(project ""
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "TP1")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -6157,16 +5784,55 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 38.1 90.17 0)
+		(lib_id "SSSS213000:SSSS213000")
+		(at 231.14 76.2 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "12e7d15b-3aa6-4f2a-9362-9b3102106fe6")
-		(property "Reference" "#PWR013"
-			(at 38.1 93.98 0)
+		(uuid "12b86cf1-ef7f-49b1-9080-57f633c51279")
+		(property "Reference" "SW1"
+			(at 219.71 68.326 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SSSS213000"
+			(at 219.7101 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "mylib:SSSS213000"
+			(at 212.09 -18.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.alps.com/prod/info/E/HTML/Switch/Slide/SSSS2/SSSS213000.html"
+			(at 212.09 -118.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Slide Switches 1-pole 2-positions"
+			(at 231.14 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6174,48 +5840,69 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 38.1 86.36 0)
+		(property "Height" "5"
+			(at 212.09 -318.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 38.1 90.17 0)
+		(property "Avnet Part Number" ""
+			(at 212.09 -418.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 38.1 90.17 0)
+		(property "Avnet Price/Stock" ""
+			(at 212.09 -518.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
+		)
+		(property "Manufacturer_Name" "ALPS Electric"
+			(at 212.09 -618.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SSSS213000"
+			(at 212.09 -718.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a4764ef9-32e1-424f-afb0-d892a2957d34")
 		)
 		(pin "1"
-			(uuid "b0b6bc67-d98f-4500-b0ab-ccfa2a3d9a31")
+			(uuid "4f61a5fb-ea50-4581-89b9-dfd822149ceb")
+		)
+		(pin "2"
+			(uuid "d3817a18-bb4f-47b9-9304-32df5bd6368b")
 		)
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "#PWR013")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -6292,7 +5979,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 36.83 41.91 0)
+		(at 58.42 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6300,8 +5987,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14f90292-e58e-4af0-9832-3e20233bf719")
-		(property "Reference" "#PWR010"
-			(at 36.83 48.26 0)
+		(property "Reference" "#PWR013"
+			(at 58.42 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6310,7 +5997,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 36.83 46.3534 0)
+			(at 58.42 38.7334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6318,7 +6005,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 41.91 0)
+			(at 58.42 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6327,7 +6014,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 41.91 0)
+			(at 58.42 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6336,7 +6023,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 36.83 41.91 0)
+			(at 58.42 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6349,7 +6036,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "#PWR010")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -6365,7 +6052,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1503cabb-fb5e-4030-af61-48340d4cff7c")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR030"
 			(at 209.55 52.07 0)
 			(effects
 				(font
@@ -6414,7 +6101,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "#PWR034")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -6487,71 +6174,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 38.1 93.98 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "16d18e9b-c8e5-4625-b49a-e4b4c03956d0")
-		(property "Reference" "TP4"
-			(at 39.497 96.4473 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 35.56 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 33.02 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 33.02 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "927c6ac8-59d1-490b-8e8f-133bf103a66a")
-		)
-		(instances
-			(project "MX_IMU"
-				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 80.01 153.67 0)
 		(unit 1)
@@ -6561,7 +6183,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1bb1d857-800f-4479-a56f-819daa801a33")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR019"
 			(at 80.01 160.02 0)
 			(effects
 				(font
@@ -6610,7 +6232,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "#PWR023")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -6719,7 +6341,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c43f6be-db7c-434b-8897-ee151d7f73f2")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR029"
 			(at 166.37 143.51 0)
 			(effects
 				(font
@@ -6768,7 +6390,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "#PWR033")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -6927,7 +6549,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f557048-b801-47f2-814a-d40117fed998")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR07"
 			(at 36.83 157.48 0)
 			(effects
 				(font
@@ -6976,7 +6598,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "#PWR011")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -6992,7 +6614,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2faaf9a1-665c-480c-9b44-093ebba460d8")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR011"
 			(at 57.15 121.92 0)
 			(effects
 				(font
@@ -7041,7 +6663,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "#PWR017")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -7057,7 +6679,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "322da2c4-6f08-410d-ba3e-a5ecb35d7a53")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR031"
 			(at 209.55 114.3 0)
 			(effects
 				(font
@@ -7106,7 +6728,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "#PWR035")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -7122,7 +6744,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37a06e0d-72f5-4f5c-890c-206268649c30")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR027"
 			(at 138.43 111.76 0)
 			(effects
 				(font
@@ -7171,7 +6793,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "#PWR031")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -7186,7 +6808,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3b0ed989-0b55-463d-bfa3-293465ca3284")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR024"
 			(at 128.27 50.8 0)
 			(effects
 				(font
@@ -7236,7 +6858,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "#PWR028")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -7454,143 +7076,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 38.1 72.39 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "479f692c-74d0-4f56-821d-a58f74aebfcb")
-		(property "Reference" "TP3"
-			(at 39.497 74.8573 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 33.02 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 33.02 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 33.02 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ed8931a4-20fb-4325-b797-e44e6b20916b")
-		)
-		(instances
-			(project "MX_IMU"
-				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "jst_zh:S2B-ZRLFSN")
-		(at 36.83 39.37 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4c5a865f-186d-402a-9639-cd556ccac5a6")
-		(property "Reference" "J1"
-			(at 27.94 31.75 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "S2B-ZRLFSN"
-			(at 22.86 36.8301 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "mylib:CONN_S2B-ZR_JST"
-			(at 36.83 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "S2B-ZRLFSN"
-			(at 36.83 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 36.83 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6f01cb90-daf8-4434-b6ee-e0488733bfbd")
-		)
-		(pin "1"
-			(uuid "0c3873df-c540-4cf0-8fc4-d1662b94ef64")
-		)
-		(instances
-			(project ""
-				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 214.63 45.72 0)
 		(unit 1)
@@ -7600,7 +7085,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "501041d2-ee21-48c4-a652-6b2bc8991a9f")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR032"
 			(at 214.63 52.07 0)
 			(effects
 				(font
@@ -7649,7 +7134,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "#PWR036")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -7665,7 +7150,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "534ab384-81fb-4871-b359-677f9d24a31c")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR08"
 			(at 43.18 144.78 0)
 			(effects
 				(font
@@ -7714,7 +7199,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "#PWR014")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -7961,7 +7446,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66d68e85-dfb4-4e0b-a232-5be1ceb045d0")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR09"
 			(at 45.72 196.85 0)
 			(effects
 				(font
@@ -8010,7 +7495,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "#PWR015")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -8026,7 +7511,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "699355d9-e4d6-4d35-82ea-54107070cbf7")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR014"
 			(at 66.04 88.9 0)
 			(effects
 				(font
@@ -8076,7 +7561,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "#PWR018")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -8160,7 +7645,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d4f0c66-f737-45ad-bda4-0bebdf041e6f")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR010"
 			(at 57.15 53.34 0)
 			(effects
 				(font
@@ -8210,7 +7695,73 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "#PWR016")
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 231.14 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72da3c0b-c1d6-4a55-b28b-49b7bab9e122")
+		(property "Reference" "#PWR034"
+			(at 231.14 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 231.14 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 231.14 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8580a59a-13d9-4600-9c79-04c39e57584d")
+		)
+		(instances
+			(project "MX_IMU"
+				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -8369,73 +7920,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 229.87 71.12 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "801d7fa6-dc98-44f0-b5eb-4adae08237cd")
-		(property "Reference" "#FLG05"
-			(at 231.775 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 233.68 71.1199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 229.87 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 229.87 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 229.87 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c69223ba-85b3-40ce-a54b-08f8cc831629")
-		)
-		(instances
-			(project "MX_IMU"
-				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "#FLG05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 69.85 156.21 90)
 		(unit 1)
@@ -8512,7 +7996,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 36.83 36.83 0)
+		(at 58.42 31.75 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8520,8 +8004,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81b91a70-69dc-4b3d-a66a-8fdafddfca89")
-		(property "Reference" "#PWR09"
-			(at 36.83 40.64 0)
+		(property "Reference" "#PWR012"
+			(at 62.23 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8530,7 +8014,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 36.83 31.75 0)
+			(at 53.34 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8538,7 +8022,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 36.83 0)
+			(at 58.42 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8547,7 +8031,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 36.83 0)
+			(at 58.42 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8556,7 +8040,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 36.83 36.83 0)
+			(at 58.42 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8568,9 +8052,9 @@
 			(uuid "da59536a-ae4c-4673-95fb-213165131424")
 		)
 		(instances
-			(project ""
+			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "#PWR09")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -8585,7 +8069,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8946b6e0-ddff-41e6-b0bb-b13d217fe5fa")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR022"
 			(at 102.87 50.8 0)
 			(effects
 				(font
@@ -8635,7 +8119,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "#PWR026")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -8864,73 +8348,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 220.98 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9d7ce1f5-175d-4c7c-8991-56b98e75cabf")
-		(property "Reference" "JP2"
-			(at 220.98 78.4692 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Jumper_2_Open"
-			(at 220.98 81.0061 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 220.98 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 220.98 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 220.98 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6ecf8f9b-21b2-4c36-a5f5-0fcb5370d016")
-		)
-		(pin "2"
-			(uuid "4f2a6823-5e86-47eb-96fe-bdd075635582")
-		)
-		(instances
-			(project "MX_IMU"
-				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "JP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 77.47 85.09 0)
 		(unit 1)
@@ -8940,7 +8357,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a149740c-061c-410a-b0b8-0237f4867338")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR017"
 			(at 77.47 88.9 0)
 			(effects
 				(font
@@ -8990,7 +8407,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "#PWR021")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -9006,7 +8423,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6af86dc-b525-4417-ad6c-5e1bc910a11f")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR036"
 			(at 251.46 130.81 0)
 			(effects
 				(font
@@ -9055,7 +8472,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "#PWR040")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -9137,7 +8554,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aba22407-517a-4cdb-9c7d-50aa45b488d4")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR023"
 			(at 115.57 76.2 0)
 			(effects
 				(font
@@ -9188,24 +8605,24 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "#PWR027")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 25.4 68.58 0)
+		(lib_id "power:PWR_FLAG")
+		(at 233.68 76.2 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "aec544e5-72d4-4d6e-bfdf-11a2cce9a9e4")
-		(property "Reference" "#PWR05"
-			(at 25.4 72.39 0)
+		(uuid "b1d4c07b-1b5f-4894-a84e-420760f6db56")
+		(property "Reference" "#FLG05"
+			(at 235.585 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9213,80 +8630,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5VD"
-			(at 25.4 63.5 0)
+		(property "Value" "PWR_FLAG"
+			(at 237.49 76.1999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 25.4 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "03c8a8f4-b676-4b4f-8528-404352439801")
-		)
-		(instances
-			(project "MX_IMU"
-				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 220.98 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "af6a7599-cb36-4c0a-9a65-f206a00066d3")
-		(property "Reference" "JP1"
-			(at 220.98 65.7692 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Jumper_2_Open"
-			(at 220.98 68.3061 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 220.98 71.12 0)
+			(at 233.68 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9295,7 +8649,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 220.98 71.12 0)
+			(at 233.68 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9303,24 +8657,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 220.98 71.12 0)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 233.68 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "6e684ddd-bbbd-4f5b-9fad-ab1bd1aedd89")
-		)
-		(pin "2"
-			(uuid "d6eea82b-5ee3-4bfd-b0e2-b091272ef558")
+			(uuid "d7ecfa61-3377-4f03-b47d-7dcf91d3417f")
 		)
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "JP1")
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -9447,7 +8799,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b77f5b5b-c495-4e10-878c-28c4ed97572a")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR05"
 			(at 31.75 118.11 0)
 			(effects
 				(font
@@ -9496,7 +8848,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "#PWR07")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -9504,7 +8856,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 36.83 36.83 270)
+		(at 58.42 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9513,7 +8865,7 @@
 		(fields_autoplaced yes)
 		(uuid "b9c82ec1-0002-4d63-983d-c9eba767037f")
 		(property "Reference" "#FLG01"
-			(at 38.735 36.83 0)
+			(at 58.42 29.845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9522,7 +8874,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 40.64 36.8299 90)
+			(at 58.4199 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9531,7 +8883,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 36.83 0)
+			(at 58.42 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9540,7 +8892,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 36.83 0)
+			(at 58.42 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9549,7 +8901,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 36.83 36.83 0)
+			(at 58.42 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9561,75 +8913,9 @@
 			(uuid "f310ce08-d04b-46d5-8b92-d3cad702805c")
 		)
 		(instances
-			(project ""
+			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
 					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 229.87 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c127f6d5-d381-423e-a1e8-200da894959f")
-		(property "Reference" "#PWR038"
-			(at 229.87 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 229.87 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 229.87 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 229.87 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 229.87 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "59a6c299-85ec-4560-939c-613800d62ba9")
-		)
-		(instances
-			(project ""
-				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -9840,71 +9126,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 25.4 93.98 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c86e9e0a-2ebf-4a4f-b8de-9645cbe43a32")
-		(property "Reference" "TP2"
-			(at 26.797 96.4473 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 21.59 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 20.32 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 20.32 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 25.4 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ea7cf2f3-542b-4ae2-bc7a-79d72416c83f")
-		)
-		(instances
-			(project "MX_IMU"
-				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 31.75 127 0)
 		(unit 1)
@@ -9913,7 +9134,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c9a456a0-f96f-4e2a-b141-81e5d73bd0a3")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR06"
 			(at 31.75 133.35 0)
 			(effects
 				(font
@@ -9963,7 +9184,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "#PWR08")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -9979,7 +9200,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca6c3167-7e76-44e8-b02a-d0c8c208fc7c")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR033"
 			(at 214.63 114.3 0)
 			(effects
 				(font
@@ -10028,7 +9249,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "#PWR037")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -10300,7 +9521,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d956a596-6a36-45d0-8914-55dd566bddd2")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR015"
 			(at 66.04 121.92 0)
 			(effects
 				(font
@@ -10349,72 +9570,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 25.4 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "db747b06-72ad-477d-81b1-ee250f1e4db1")
-		(property "Reference" "#PWR06"
-			(at 25.4 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 25.4 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 25.4 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d4007d30-4bac-4982-b733-1f2cea32a14b")
-		)
-		(instances
-			(project "MX_IMU"
-				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "#PWR06")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -10430,7 +9586,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc5275dc-84f1-4cf1-af01-9d6134c988cd")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR025"
 			(at 130.81 111.76 0)
 			(effects
 				(font
@@ -10479,7 +9635,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "#PWR029")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -10561,7 +9717,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2d9e949-2a0c-4c43-9284-396a2e6d1fc5")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR035"
 			(at 251.46 66.04 0)
 			(effects
 				(font
@@ -10610,7 +9766,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "#PWR039")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -10741,7 +9897,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3a519cc-85db-415a-b5dd-b4c621d8b51e")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR026"
 			(at 138.43 91.44 0)
 			(effects
 				(font
@@ -10790,7 +9946,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "#PWR030")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -10875,7 +10031,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6d9ee47-903f-429e-91d1-09ee925033d9")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR018"
 			(at 77.47 121.92 0)
 			(effects
 				(font
@@ -10924,7 +10080,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "#PWR022")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -10940,7 +10096,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7b0ac8c-f26f-4aaf-bc5b-8e0fc50fd0ac")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR016"
 			(at 69.85 72.39 0)
 			(effects
 				(font
@@ -10989,7 +10145,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "#PWR020")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -11004,7 +10160,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e9cdfec7-41a3-442e-956f-0b40f8fbd205")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR028"
 			(at 166.37 81.28 0)
 			(effects
 				(font
@@ -11053,73 +10209,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 38.1 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ea8d685c-07ad-43c8-8ded-5573ea40daa5")
-		(property "Reference" "#PWR012"
-			(at 38.1 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 38.1 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 38.1 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bb497ba5-1b1e-466f-9359-9d6943d96469")
-		)
-		(instances
-			(project "MX_IMU"
-				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "#PWR012")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -11135,7 +10225,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8138d9d-a039-4ac7-863d-98c040372342")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR021"
 			(at 86.36 121.92 0)
 			(effects
 				(font
@@ -11184,7 +10274,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "#PWR025")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -11200,7 +10290,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fff5357e-1f11-4f18-bca1-395bcc4e533c")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR020"
 			(at 82.55 53.34 0)
 			(effects
 				(font
@@ -11250,7 +10340,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/623e427f-6907-46a8-ba12-bccc1b1d2c2b"
-					(reference "#PWR024")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)

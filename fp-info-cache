@@ -1,4 +1,4 @@
-26781759920968895
+26792333453239407
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106463,6 +106463,13 @@ logo_pumbaa
 0
 0
 mylib
+BMP388
+
+
+0
+10
+10
+mylib
 CHIPLED_0603_NOOUTLINE
 
 
@@ -106490,6 +106497,20 @@ S2B-ZRLFSN
 0
 2
 2
+mylib
+CONN_SM04B-GHS-TB_JST
+
+SM04B-GHS-TB 
+0
+6
+6
+mylib
+CONN_SM06B-GHS-TB_JST
+
+SM06B-GHS-TB 
+0
+8
+8
 mylib
 CON_353630460
 
@@ -106519,6 +106540,13 @@ ICM42688p
 14
 14
 mylib
+JST_B2B-PH-K-S
+
+
+0
+2
+2
+mylib
 R_0603_1608Metric
 Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
 resistor
@@ -106533,9 +106561,23 @@ SON65P300X300X100-9N
 9
 9
 mylib
+SSSS213000
+SSSS213000
+Schottky Diode
+0
+3
+3
+mylib
 WS2812B-2020
 4684-3
 LED
+0
+4
+4
+mylib
+XTAL_ASEK-32.768KHZ-L-R-T
+
+
 0
 4
 4

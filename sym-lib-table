@@ -16,4 +16,6 @@
   (lib (name "SM06B-GHS-TB")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/SM06B-GHS-TB.kicad_sym")(options "")(descr ""))
   (lib (name "ASEK-32.768KHZ-L-R-T")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/ASEK-32.768KHZ-L-R-T.kicad_sym")(options "")(descr ""))
   (lib (name "B2B-PH-K-S")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/B2B-PH-K-S.kicad_sym")(options "")(descr ""))
+  (lib (name "BMP388")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/BMP388.kicad_sym")(options "")(descr ""))
+  (lib (name "SSSS213000")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/SSSS213000.kicad_sym")(options "")(descr ""))
 )

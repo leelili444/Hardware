@@ -18,4 +18,5 @@
   (lib (name "B2B-PH-K-S")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/B2B-PH-K-S.kicad_sym")(options "")(descr ""))
   (lib (name "BMP388")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/BMP388.kicad_sym")(options "")(descr ""))
   (lib (name "SSSS213000")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/SSSS213000.kicad_sym")(options "")(descr ""))
+  (lib (name "SM03B-GHS")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/SM03B-GHS.kicad_sym")(options "")(descr ""))
 )

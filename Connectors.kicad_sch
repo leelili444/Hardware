@@ -3587,7 +3587,7 @@
 			)
 		)
 	)
-	(global_label "TELE_RTS"
+	(global_label "TELE_CTS"
 		(shape input)
 		(at 242.57 81.28 180)
 		(effects
@@ -3596,9 +3596,49 @@
 			)
 			(justify right)
 		)
-		(uuid "88994eb3-1862-484d-aeae-5b7639fb7d51")
+		(uuid "5797bfca-e14a-4749-9a15-24cfb6cfd3a3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 242.57 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TELE_RX"
+		(shape input)
+		(at 242.57 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7246a587-e376-4456-86bb-2dd2da6aa9a6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 242.57 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TELE_TX"
+		(shape input)
+		(at 242.57 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "79765612-c736-4823-be47-947cea62d210")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 242.57 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3619,26 +3659,6 @@
 		(uuid "8a2f3a1e-8281-4aac-bf61-1ba77c20d3e3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 201.93 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TELE_CTS"
-		(shape input)
-		(at 242.57 83.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9079c7d3-fa98-4532-ac12-91d8afa014c4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 242.57 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3687,38 +3707,18 @@
 			)
 		)
 	)
-	(global_label "TELE_RX"
+	(global_label "TELE_RTS"
 		(shape input)
-		(at 242.57 86.36 180)
+		(at 242.57 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "bd268df2-3aab-4f05-a7cc-8f84c60b67f1")
+		(uuid "b37d7a14-e2a6-4ade-a779-2a14bcbb1a2c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 242.57 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TELE_TX"
-		(shape input)
-		(at 242.57 88.9 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ced22656-2f5f-42bb-973f-ed7e98a6880e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 242.57 88.9 0)
+			(at 242.57 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)

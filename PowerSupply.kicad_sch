@@ -1044,7 +1044,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 22.86 0 180)
 					(length 5.08)
 					(name "NC"
@@ -4394,6 +4394,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 76.2) (xy 231.14 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b7c241a-4612-46e5-a519-819840146f9b")
+	)
+	(wire
+		(pts
 			(xy 241.3 110.49) (xy 240.03 110.49)
 		)
 		(stroke
@@ -5801,7 +5811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SSSS213000"
+		(property "Footprint" "mylib:SSSS213000"
 			(at 212.09 -18.72 0)
 			(effects
 				(font
@@ -8603,7 +8613,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 231.14 76.2 270)
+		(at 233.68 76.2 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8612,7 +8622,7 @@
 		(fields_autoplaced yes)
 		(uuid "b1d4c07b-1b5f-4894-a84e-420760f6db56")
 		(property "Reference" "#FLG04"
-			(at 233.045 76.2 0)
+			(at 235.585 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8621,7 +8631,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 234.95 76.1999 90)
+			(at 237.49 76.1999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8630,7 +8640,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 76.2 0)
+			(at 233.68 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8639,7 +8649,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 231.14 76.2 0)
+			(at 233.68 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8648,7 +8658,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 231.14 76.2 0)
+			(at 233.68 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)

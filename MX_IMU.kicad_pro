@@ -58,7 +58,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_overlap|152051100|89320260|32129d63-cdaf-4f2c-bfd7-147654ca6d0a|b13bf23c-1536-4692-bf40-5487fd0d8834",
+          ""
+        ],
+        [
+          "silk_overlap|157159744|84295959|9a2990e8-0bcb-42e7-9474-6aff3423945e|9ec45a26-59b9-443a-9108-e91a922c8257",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -133,7 +142,7 @@
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
+        "min_text_height": 0.6,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.2,

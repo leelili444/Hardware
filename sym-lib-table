@@ -11,7 +11,6 @@
   (lib (name "nxp")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/nxp.kicad_sym")(options "")(descr ""))
   (lib (name "usb_c_receptacle_usb2.0")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/usb_c_receptacle_usb2.0.kicad_sym")(options "")(descr ""))
   (lib (name "353630460")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/353630460.kicad_sym")(options "")(descr ""))
-  (lib (name "bt_oscillator")(type "KiCad")(uri "/home/leo/Downloads/bt_oscillator.kicad_sym")(options "")(descr ""))
   (lib (name "SM04B-GHS-TB")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/SM04B-GHS-TB.kicad_sym")(options "")(descr ""))
   (lib (name "SM06B-GHS-TB")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/SM06B-GHS-TB.kicad_sym")(options "")(descr ""))
   (lib (name "ASEK-32.768KHZ-L-R-T")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/ASEK-32.768KHZ-L-R-T.kicad_sym")(options "")(descr ""))
@@ -19,4 +18,5 @@
   (lib (name "BMP388")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/BMP388.kicad_sym")(options "")(descr ""))
   (lib (name "SSSS213000")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/SSSS213000.kicad_sym")(options "")(descr ""))
   (lib (name "SM03B-GHS")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/SM03B-GHS.kicad_sym")(options "")(descr ""))
+  (lib (name "bt_oscillator")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/bt_oscillator.kicad_sym")(options "")(descr ""))
 )

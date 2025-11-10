@@ -22584,6 +22584,18 @@
 		(layer "Edge.Cuts")
 		(uuid "a42fb6c5-5589-418f-a32e-804e0681276f")
 	)
+	(gr_text "TELE"
+		(at 162.708812 76.694083 0)
+		(layer "F.SilkS")
+		(uuid "001056d9-eb3d-455d-862d-d7759511a2c2")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "PC9\n"
 		(at 157.624233 95.86212 0)
 		(layer "F.SilkS")

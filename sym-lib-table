@@ -19,4 +19,5 @@
   (lib (name "BMP388")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/BMP388.kicad_sym")(options "")(descr ""))
   (lib (name "SSSS213000")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/SSSS213000.kicad_sym")(options "")(descr ""))
   (lib (name "SM03B-GHS")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/SM03B-GHS.kicad_sym")(options "")(descr ""))
+  (lib (name "SG3225")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/SG3225.kicad_sym")(options "")(descr ""))
 )

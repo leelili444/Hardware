@@ -7374,7 +7374,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Oscillator:Oscillator_SMD_SeikoEpson_SG8002CE-4Pin_3.2x2.5mm"
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 157.48 87.63 0)
 			(effects
 				(font

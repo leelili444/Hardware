@@ -3081,7 +3081,7 @@
 			)
 		)
 	)
-	(global_label "BARO_INT"
+	(global_label "Baro_INT"
 		(shape input)
 		(at 214.63 59.69 0)
 		(fields_autoplaced yes)
@@ -3093,7 +3093,7 @@
 		)
 		(uuid "2e4eb2af-5677-4803-bc5f-46cb89a0edf3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.8726 59.6106 0)
+			(at 225.8399 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5309,7 +5309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2650753.pdf"
 			(at 82.55 38.1 0)
 			(effects
 				(font
@@ -5318,7 +5318,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3.3V 3.5mA CMOS SMD3225-4P Crystals RoHS 25ppm"
 			(at 82.55 38.1 0)
 			(effects
 				(font
@@ -5374,6 +5374,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part " "C2650753"
+			(at 82.55 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

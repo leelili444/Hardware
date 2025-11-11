@@ -5309,7 +5309,7 @@
 			)
 		)
 	)
-	(global_label "BARO_INT"
+	(global_label "Baro_INT"
 		(shape input)
 		(at 102.87 152.4 0)
 		(fields_autoplaced yes)
@@ -5321,7 +5321,7 @@
 		)
 		(uuid "ce2caf0d-766a-4b8d-99ae-be027a580fdf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.1126 152.3206 0)
+			(at 114.0799 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7410,7 +7410,7 @@
 				(hide yes)
 			)
 		)
-		(property "CPN" "C7504299"
+		(property "LCSC Part " "C7504299"
 			(at 157.48 87.63 0)
 			(effects
 				(font
@@ -7752,6 +7752,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C965555"
+			(at 229.87 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "f885512a-38b3-4d5e-a305-986bf4f20c67")
 		)
@@ -8020,6 +8029,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC Part" "C455109 "
+			(at 250.19 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"

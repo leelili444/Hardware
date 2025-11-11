@@ -1,4 +1,4 @@
-26792333453239407
+26797620771321270
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106498,6 +106498,13 @@ S2B-ZRLFSN
 2
 2
 mylib
+CONN_SM03B-GHS-TBLFSN_JST
+
+SM03B-GHS-TBLFSN 
+0
+5
+5
+mylib
 CONN_SM04B-GHS-TB_JST
 
 SM04B-GHS-TB 
@@ -106546,6 +106553,13 @@ JST_B2B-PH-K-S
 0
 2
 2
+mylib
+Oscillator_SMD_SeikoEpson_SG3225CAN-4Pin_3.2x2.5mm
+Seiko Epson SG-8002CE, Crystal Oscillator, 3.2x2.5mm package, SMD, generated with kicad-footprint-generator make_crystal.py, https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-8002DC
+
+0
+4
+4
 mylib
 R_0603_1608Metric
 Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator

@@ -1,0 +1,159 @@
+(footprint "Oscillator_SMD_SeikoEpson_SG3225CAN-4Pin_3.2x2.5mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Seiko Epson SG-8002CE, Crystal Oscillator, 3.2x2.5mm package, SMD, generated with kicad-footprint-generator make_crystal.py, https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-8002DC")
+	(property "Reference" "REF**"
+		(at 0 -2.5 0)
+		(layer "F.SilkS")
+		(uuid "5d45e4c4-84d2-4337-816e-9d38a6fe0908")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Oscillator_SMD_SeikoEpson_SG3225CAN-4Pin_3.2x2.5mm"
+		(at 0 2.5 0)
+		(layer "F.Fab")
+		(uuid "06c377e3-035b-4c4c-9636-a92e56f2099d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3491c66e-47aa-4b06-bb4f-87c6a713ef8e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5b626548-aac4-419b-86a3-df16de0cc619")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.16 -1.81)
+		(end -2.16 1.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6d5f3bdf-d9f7-4b11-9b28-297b50701f93")
+	)
+	(fp_line
+		(start -2.16 1.81)
+		(end 2.16 1.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ccaad974-14b1-47c5-9ff4-5bb602ce8741")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.25 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Adhes")
+		(uuid "fce1eee7-8165-43ac-9dc1-6a474aab3fa3")
+	)
+	(fp_rect
+		(start -2.15 -1.8)
+		(end 2.15 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ef5597d2-35d0-463e-a1ab-51df8c988714")
+	)
+	(fp_poly
+		(pts
+			(xy -1.6 -1.25) (xy -1.6 0.625) (xy -0.975 1.25) (xy 1.6 1.25) (xy 1.6 -1.25)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1c86a942-38e2-4876-bee2-efa08c2dc5b5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "936d9f3a-4a16-4367-9024-bd601100af8d")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.2 0.95)
+		(size 1.4 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.208333)
+		(uuid "1c2d36cd-c75e-4e45-9c77-2dbcb9f5ddee")
+	)
+	(pad "2" smd roundrect
+		(at 1.2 0.95)
+		(size 1.4 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.208333)
+		(uuid "276f08a2-a0c1-4d4d-af77-fda94e6a2486")
+	)
+	(pad "3" smd roundrect
+		(at 1.2 -0.95)
+		(size 1.4 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.208333)
+		(uuid "a1b4d283-6b30-4a6f-84c7-6b285716855f")
+	)
+	(pad "4" smd roundrect
+		(at -1.2 -0.95)
+		(size 1.4 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.208333)
+		(uuid "f9e6983e-fe8c-4723-9ade-6b974c0aefcb")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_SeikoEpson_SG8002CE-4Pin_3.2x2.5mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

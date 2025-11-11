@@ -2634,7 +2634,7 @@
 					)
 				)
 			)
-			(property "Value" "12Mhz,50ppm"
+			(property "Value" "8Mhz,50ppm"
 				(at 14.986 1.27 0)
 				(effects
 					(font
@@ -2660,7 +2660,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "3V3 oscillator 12Mhz 50ppm"
+			(property "Description" "3V3 oscillator 8Mhz 50ppm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -7374,7 +7374,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+		(property "Footprint" "mylib:Oscillator_SMD_SeikoEpson_SG3225CAN-4Pin_3.2x2.5mm"
 			(at 157.48 87.63 0)
 			(effects
 				(font
@@ -7392,7 +7392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "3V3 oscillator 8Mhz 50ppm"
+		(property "Description" "1.62V~3.63V 1.8mA CMOS SMD3225-4P Crystals RoHS"
 			(at 157.48 87.63 0)
 			(effects
 				(font
@@ -7401,7 +7401,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SG3225CAN 12.0000M-TJGA6"
+		(property "MPN" "X1G0059610004 "
 			(at 157.48 87.63 0)
 			(effects
 				(font
@@ -7410,7 +7410,7 @@
 				(hide yes)
 			)
 		)
-		(property "CPN" "BT05001-12601"
+		(property "CPN" "C7504299"
 			(at 157.48 87.63 0)
 			(effects
 				(font
@@ -7478,7 +7478,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.alps.com/prod/info/E/HTML/Switch/Slide/SSSS2/SSSS213000.html"
+		(property "Datasheet" "https://tech.alpsalpine.com/cms.media/product_catalog_sw_02_ssss2_en_5f16103499.pdf"
 			(at 152.4 -50.14 0)
 			(effects
 				(font
@@ -7996,7 +7996,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H5mm"
 			(at 255.27 143.51 0)
 			(effects
 				(font

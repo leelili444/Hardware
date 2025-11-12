@@ -4860,7 +4860,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor RALEC RTT0360R0FTP"
+			(at 85.09 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C166918"
 			(at 85.09 74.93 0)
 			(effects
 				(font
@@ -5128,7 +5137,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor RTT0360R0FTP"
+			(at 95.25 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C166918"
 			(at 95.25 74.93 0)
 			(effects
 				(font

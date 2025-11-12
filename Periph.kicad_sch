@@ -4859,7 +4859,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C779278.pdf"
 			(at 201.93 64.77 0)
 			(effects
 				(font
@@ -4868,7 +4868,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "30Kpa~1.25bar LGA-10(2x2) Pressure Sensors, Transducers RoHS"
 			(at 201.93 64.77 0)
 			(effects
 				(font
@@ -4904,6 +4904,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" " #  C779278 "
+			(at 201.93 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

@@ -7547,6 +7547,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part " "C125054"
+			(at 171.45 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "baaf3ec1-1186-40a8-835a-1680c7c84360")
 		)

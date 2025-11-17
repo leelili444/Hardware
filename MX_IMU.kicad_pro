@@ -60,19 +60,19 @@
       ],
       "drc_exclusions": [
         [
-          "silk_edge_clearance|128351100|27145260|6dec097b-e370-4197-86b7-3c66fa4d9bcb|0263d152-7cd6-4bf9-984c-4a7aae43a462",
+          "silk_edge_clearance|128351100|27145260|6dec097b-e370-4197-86b7-3c66fa4d9bcb|fd3f3480-b54f-4bb8-b047-c4afbf2e048d",
           ""
         ],
         [
-          "silk_edge_clearance|137751100|27145260|6dec097b-e370-4197-86b7-3c66fa4d9bcb|89223077-3312-40f6-9fe4-1717243dc435",
+          "silk_edge_clearance|137751100|27145260|6dec097b-e370-4197-86b7-3c66fa4d9bcb|bc6623d0-cc8b-4458-a110-5906ba651ce8",
           ""
         ],
         [
-          "silk_edge_clearance|146351100|27145260|6dec097b-e370-4197-86b7-3c66fa4d9bcb|45cc9541-be58-4e8b-a1d4-4a8dd1128a3e",
+          "silk_edge_clearance|146351100|27145260|6dec097b-e370-4197-86b7-3c66fa4d9bcb|669fc960-a125-48d7-8889-46e8e2b3bb81",
           ""
         ],
         [
-          "silk_edge_clearance|155751100|27145260|6dec097b-e370-4197-86b7-3c66fa4d9bcb|00022ffc-7882-40c8-b488-720a2e7dc0d7",
+          "silk_edge_clearance|155751100|27145260|6dec097b-e370-4197-86b7-3c66fa4d9bcb|b3420fea-e7b4-40a0-8a60-0fbb17544dc2",
           ""
         ],
         [
@@ -148,7 +148,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.12,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -978,14 +978,14 @@
   "pcbnew": {
     "last_paths": {
       "gencad": "",
-      "idf": "",
+      "idf": "MX_IMU.emn",
       "netlist": "",
       "plot": "./gbr",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "MX_IMU.stl",
+      "step": "MX_IMU.step",
       "svg": "",
-      "vrml": ""
+      "vrml": "MX_IMU.wrl"
     },
     "page_layout_descr_file": ""
   },

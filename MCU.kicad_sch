@@ -296,130 +296,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_Small"
 			(pin_numbers
 				(hide yes)
@@ -3482,6 +3358,12 @@
 		(uuid "1ac0d3f2-cbbb-472a-9587-6e269cc2b10d")
 	)
 	(junction
+		(at 171.45 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25b7a4ea-034f-4cda-9125-11af87930e70")
+	)
+	(junction
 		(at 69.85 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3558,12 +3440,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aba7e128-3db1-4cae-b35c-c4e4fdf10a83")
-	)
-	(junction
-		(at 171.45 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b12ffcc4-29b8-42ea-a065-a7b34237575a")
 	)
 	(junction
 		(at 148.59 45.72)
@@ -4081,6 +3957,16 @@
 		)
 		(uuid "8a5ae414-b9a1-496b-b467-9c7966f08d06")
 	)
+	(wire
+		(pts
+			(xy 171.45 151.13) (xy 171.45 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ae9cdb1-0400-4aab-864a-165e7788946e")
+	)
 	(polyline
 		(pts
 			(xy 194.31 72.39) (xy 194.31 115.57)
@@ -4390,6 +4276,16 @@
 			(type default)
 		)
 		(uuid "cf18073b-117c-4bfd-b25a-ad7fb8852e70")
+	)
+	(wire
+		(pts
+			(xy 171.45 144.78) (xy 171.45 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1543faf-d0b4-45cb-bd09-536cd179799d")
 	)
 	(wire
 		(pts
@@ -7366,7 +7262,7 @@
 				)
 			)
 		)
-		(property "Value" "8Mhz,50ppm"
+		(property "Value" "X1G0059610004"
 			(at 149.352 92.202 0)
 			(effects
 				(font
@@ -7732,7 +7628,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 			(at 231.14 104.14 0)
 			(effects
 				(font
@@ -8671,16 +8567,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_Small")
 		(at 171.45 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f0e9371a-d940-4164-9706-0dbdf2ab748c")
+		(uuid "fab449be-aea1-417d-a248-1925febb9bf2")
 		(property "Reference" "R9"
-			(at 167.386 147.32 0)
+			(at 172.72 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8689,7 +8585,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 166.37 149.86 0)
+			(at 172.72 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8697,8 +8593,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 169.672 148.59 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 171.45 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8715,7 +8611,15 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
+			(at 171.45 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C25744"
 			(at 171.45 148.59 0)
 			(effects
 				(font
@@ -8724,11 +8628,11 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "906c6117-bf71-4fac-807e-f056f3fd9274")
-		)
 		(pin "1"
-			(uuid "1f8f1ea1-b5d2-43cd-a90f-834c9a24876b")
+			(uuid "c8c4dd04-e176-42eb-b251-509d314ac46f")
+		)
+		(pin "2"
+			(uuid "c34b67f4-6df0-4b5b-8e92-bd3e1fff572c")
 		)
 		(instances
 			(project "MX_IMU"

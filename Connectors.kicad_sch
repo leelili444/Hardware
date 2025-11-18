@@ -5400,7 +5400,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SM04B-GHS-TB"
+		(property "Value" "SM04B-GHS-TB(LF)(SN)"
 			(at 215.9 63.4999 0)
 			(effects
 				(font
@@ -5614,7 +5614,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SM06B-GHS-TB"
+		(property "Value" "SM06B-GHS-TB(LF)(SN)"
 			(at 262.89 69.8499 0)
 			(effects
 				(font
@@ -5912,7 +5912,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SM04B-GHS-TB"
+		(property "Value" "SM04B-GHS-TB(LF)(SN)"
 			(at 123.19 68.5799 0)
 			(effects
 				(font

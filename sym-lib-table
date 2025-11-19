@@ -19,4 +19,6 @@
   (lib (name "SSSS213000")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/SSSS213000.kicad_sym")(options "")(descr ""))
   (lib (name "SM03B-GHS")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/SM03B-GHS.kicad_sym")(options "")(descr ""))
   (lib (name "bt_oscillator")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/bt_oscillator.kicad_sym")(options "")(descr ""))
+  (lib (name "SW_B3U-1000P")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/SW_B3U-1000P.kicad_sym")(options "")(descr ""))
+  (lib (name "APBD3224SURKCGKC-F01")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/APBD3224SURKCGKC-F01.kicad_sym")(options "")(descr ""))
 )

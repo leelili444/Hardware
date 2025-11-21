@@ -3781,16 +3781,6 @@
 		)
 		(uuid "4ee4ed84-7e76-428f-a2c1-4897f134706d")
 	)
-	(polyline
-		(pts
-			(xy 16.51 15.24) (xy 147.32 15.24)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "4fb8f2b3-6f19-4a50-8573-debe96f3d384")
-	)
 	(wire
 		(pts
 			(xy 93.98 71.12) (xy 93.98 68.58)
@@ -4333,26 +4323,6 @@
 			)
 		)
 	)
-	(global_label "Serial_TX"
-		(shape input)
-		(at 91.44 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2571c86a-6d4d-4a8a-add3-7441272449c3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.44 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Serial_D+"
 		(shape input)
 		(at 40.64 149.86 180)
@@ -4393,26 +4363,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Serial_RX"
-		(shape input)
-		(at 91.44 144.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6bc1b7e7-d9f6-4741-b6f1-e018446eb5d9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.44 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -4483,6 +4433,26 @@
 			)
 		)
 	)
+	(global_label "Serial_TX"
+		(shape input)
+		(at 91.44 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ab3c46b8-0d27-47bb-9620-9e0bac8df5ad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.44 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "C_Serial_D-"
 		(shape input)
 		(at 182.88 58.42 0)
@@ -4501,6 +4471,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Serial_RX"
+		(shape input)
+		(at 91.44 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b8eea6ac-a648-40c6-924f-a4318980439d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.44 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -4831,7 +4821,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:MSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "mylib:MSOP-10_3x3mm_P0.5mm"
 			(at 52.07 166.37 0)
 			(effects
 				(font
@@ -5547,7 +5537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0402WGF3300TCE"
 			(at 74.93 128.27 0)
 			(effects
 				(font
@@ -5555,7 +5545,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C25744"
+		(property "LCSC Part #" "C25104"
 			(at 74.93 128.27 0)
 			(effects
 				(font
@@ -5831,7 +5821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0402WGF3300TCE"
 			(at 66.04 128.27 0)
 			(effects
 				(font
@@ -5839,7 +5829,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C25744"
+		(property "LCSC Part #" "C25104"
 			(at 66.04 128.27 0)
 			(effects
 				(font

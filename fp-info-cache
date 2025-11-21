@@ -1,4 +1,4 @@
-26797621265991150
+26801153074729503
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106463,6 +106463,13 @@ logo_pumbaa
 0
 0
 mylib
+APBD3224SURKCGKCF01
+3.2 x 2.4 mm SMD
+LED
+0
+4
+4
+mylib
 BMP388
 
 
@@ -106554,6 +106561,13 @@ JST_B2B-PH-K-S
 2
 2
 mylib
+MSOP-10_3x3mm_P0.5mm
+MSOP, 10 Pin (https://www.jedec.org/system/files/docs/mo-187F.pdf variant BA), generated with kicad-footprint-generator ipc_gullwing_generator.py
+MSOP SO Texas_DGS0010A
+0
+10
+10
+mylib
 Oscillator_SMD_SeikoEpson_SG3225CAN-4Pin_3.2x2.5mm
 Seiko Epson SG-8002CE, Crystal Oscillator, 3.2x2.5mm package, SMD, generated with kicad-footprint-generator make_crystal.py, https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-8002DC
 
@@ -106581,6 +106595,13 @@ Schottky Diode
 0
 3
 3
+mylib
+SW_B3U-1000P_OMR
+
+B3U-1000P[] 
+0
+2
+2
 mylib
 WS2812B-2020
 4684-3

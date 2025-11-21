@@ -2422,16 +2422,16 @@
 		(uuid "7994a520-a3fd-4b04-b7e4-69741239005f")
 	)
 	(junction
-		(at 218.44 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c1fe43de-6e30-47a1-b39b-dbdc6ce0e05d")
-	)
-	(junction
 		(at 77.47 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d35cc517-666b-4340-acbc-e7ca6a39ce1d")
+	)
+	(junction
+		(at 218.44 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8d2fc33-f78f-41cc-a67b-ef8c86506f8f")
 	)
 	(wire
 		(pts
@@ -2593,6 +2593,16 @@
 		)
 		(uuid "4a0d270c-96d9-4a1d-9346-7442ed6f2e37")
 	)
+	(polyline
+		(pts
+			(xy 224.79 40.64) (xy 224.79 80.899)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "4a2b9d98-132a-49e4-82ac-4ed16834e248")
+	)
 	(wire
 		(pts
 			(xy 80.01 40.64) (xy 77.47 40.64)
@@ -2602,26 +2612,6 @@
 			(type default)
 		)
 		(uuid "5290e983-c08d-438c-8a8e-f404fdfb791a")
-	)
-	(wire
-		(pts
-			(xy 218.44 63.5) (xy 218.44 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53a97178-734e-4c04-9541-dd53c2cf7f80")
-	)
-	(polyline
-		(pts
-			(xy 224.79 40.64) (xy 224.79 80.899)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "55f1ba8d-7df1-42fd-a6aa-4b6d00d30957")
 	)
 	(polyline
 		(pts
@@ -2852,6 +2842,16 @@
 			(type default)
 		)
 		(uuid "da1d9d5f-fcd8-4efb-ba0f-626788d8d56e")
+	)
+	(wire
+		(pts
+			(xy 218.44 66.04) (xy 218.44 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df6f33ce-1fd1-4b4d-9aa2-cbf55474ad3a")
 	)
 	(wire
 		(pts
@@ -3677,70 +3677,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 200.66 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "077b067d-3cfc-4422-9292-9dcc6d8da232")
-		(property "Reference" "#PWR058"
-			(at 200.66 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 201.041 56.5658 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 200.66 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9ea962c6-8c8d-4b14-96fd-76cf70c0cb9f")
-		)
-		(instances
-			(project "MX_IMU"
-				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/3e6b1080-2480-49a7-8bae-2dbfae5f98f5"
-					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 40.64 68.58 90)
 		(unit 1)
@@ -3807,7 +3743,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 218.44 67.31 0)
+		(at 218.44 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3815,7 +3751,7 @@
 		(dnp no)
 		(uuid "18a31c58-d16d-482e-915a-f590164d22e9")
 		(property "Reference" "#PWR060"
-			(at 218.44 73.66 0)
+			(at 218.44 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3824,7 +3760,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 218.567 71.7042 90)
+			(at 218.567 74.2442 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3832,7 +3768,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 67.31 0)
+			(at 218.44 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3841,7 +3777,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 67.31 0)
+			(at 218.44 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3850,7 +3786,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 218.44 67.31 0)
+			(at 218.44 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4287,7 +4223,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "66b7c783-9c9e-4136-94b0-7a5cf60f8ea8")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR058"
 			(at 194.31 63.5 0)
 			(effects
 				(font
@@ -4337,7 +4273,7 @@
 		(instances
 			(project "MX_IMU"
 				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/3e6b1080-2480-49a7-8bae-2dbfae5f98f5"
-					(reference "#PWR059")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -4703,8 +4639,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 200.66 71.12 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1e9870a-878d-49a9-b773-e9902bddbb49")
+		(property "Reference" "#PWR059"
+			(at 200.66 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 200.279 75.5142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "31c17425-1500-42d6-a581-5fc627769b25")
+		)
+		(instances
+			(project "MX_IMU"
+				(path "/8ed38441-7d4e-4e89-870f-07e11c6dce38/3e6b1080-2480-49a7-8bae-2dbfae5f98f5"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SM04B-GHS-TB:SM04B-GHS-TB")
-		(at 200.66 60.96 0)
+		(at 200.66 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4712,7 +4712,7 @@
 		(dnp no)
 		(uuid "ba4b2240-9673-4d83-8e72-cb3cbde7e081")
 		(property "Reference" "I2C1"
-			(at 205.994 55.88 0)
+			(at 205.994 58.42 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4721,7 +4721,7 @@
 			)
 		)
 		(property "Value" "SM04B-GHS-TB(LF)(SN)"
-			(at 214.63 66.0399 0)
+			(at 214.63 68.5799 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4731,7 +4731,7 @@
 			)
 		)
 		(property "Footprint" "mylib:CONN_SM04B-GHS-TB_JST"
-			(at 200.66 60.96 0)
+			(at 200.66 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4741,7 +4741,7 @@
 			)
 		)
 		(property "Datasheet" "SM04B-GHS-TB"
-			(at 200.66 60.96 0)
+			(at 200.66 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4751,7 +4751,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 200.66 60.96 0)
+			(at 200.66 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -31,4 +31,7 @@ This repository contains the MX_IMU V1.0 hardware design files, libraries, and p
 ## Production Directory
 
 The `production/` directory includes `bom.csv`, `positions.csv` (placement), `netlist.ipc`, and similar files that can be used for ordering or manufacturing.
+## liscence
+![oshw_facts](https://github.com/user-attachments/assets/b8916f6b-8520-48c4-8920-71c31e339afd)
+
 
